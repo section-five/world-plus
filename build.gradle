@@ -12,8 +12,8 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 
 version = "0.1"
-group = "bpteam" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "bpteam"
+group = "com.bpteam.arctic" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "arctic"
 
 sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 compileJava {
@@ -21,13 +21,8 @@ compileJava {
 }
 
 minecraft {
-    version = "1.12.2-14.23.5.2796"
-    if (file('../run').exists()) {
-		runDir = "../run/assets"
-	}
-	else {
-		runDir = "assets"
-	}
+    version = "1.12.2-14.23.5.2811"
+    runDir = "run"
     
     // the mappings can be changed at any time, and must be in the following format.
     // snapshot_YYYYMMDD   snapshot are built nightly.
