@@ -1,6 +1,4 @@
-# Arctic Mod ![](https://img.shields.io/badge/Creator-UKMinecrafted-orange.svg) ![](https://img.shields.io/badge/Minecraft-1.12.2-blue.svg)
-![](https://img.shields.io/badge/Owner-BPTeam-blue.svg)
-![](https://img.shields.io/badge/Discord-online-light-green.svg)
+# Arctic Mod ![](https://img.shields.io/badge/Creator-UKMinecrafted-orange.svg) ![](https://img.shields.io/badge/Minecraft-1.12.2-blue.svg) ![](https://img.shields.io/badge/Owner-BPTeam-blue.svg) ![](https://img.shields.io/badge/Discord-Online-lightgreen.svg)
 
 The Arctic Mod adds things that you would find in the arctic.
 
@@ -20,9 +18,7 @@ The Latest Version of [Minecraft  Forge 1.12.2]
 ### Installing
 ***MOD IS NOT AVAILABLE YET***
 
-```
-Download the Mod from the source [Click Here] (https://github.com/UKMinecrafted/arcticmod)
-```
+Download the Mod from the source [Here](https://github.com/UKMinecrafted/arcticmod)
 
 Move the mod into the mod folder in your .minecraft folder
 
