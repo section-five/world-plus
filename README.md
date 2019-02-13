@@ -5,10 +5,9 @@ The Arctic Mod adds things that you would find in the arctic.
 ## Getting Started
 
 This is info about the mod!
-If you need more help join out [Discord](https://discord.me/bpteam)
+If you need more help join out [Discord](https://discord.gg/R6GQ4PU)
 
-### Prerequisites
-
+### Prerequisite
 The Latest Version of [Minecraft  Forge 1.12.2](https://www.minecraftforge.net)
 
 ### Installing
