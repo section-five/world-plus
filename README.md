@@ -5,7 +5,7 @@ The Arctic Mod adds things that you would find in the arctic.
 ## Getting Started
 
 This is info about the mod!
-If you need more help join out [Discord](https://github.com/UKMinecrafted/arcticmod)
+If you need more help join out [Discord](https://discord.me/bpteam)
 
 ### Prerequisites
 
