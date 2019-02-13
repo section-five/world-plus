@@ -9,8 +9,7 @@ If you need more help join out [Discord](https://discord.me/bpteam)
 
 ### Prerequisites
 
-The Latest Version of [Minecraft  Forge 1.12.2]
-(https://www.minecraftforge.net)
+The Latest Version of [Minecraft  Forge 1.12.2](https://www.minecraftforge.net)
 
 ### Installing
 ***MOD IS NOT AVAILABLE YET***
