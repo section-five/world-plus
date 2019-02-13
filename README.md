@@ -9,11 +9,8 @@ If you need more help join out [Discord](https://discord.me/bpteam)
 
 ### Prerequisites
 
-
-```
 The Latest Version of [Minecraft  Forge 1.12.2]
 (https://www.minecraftforge.net)
-```
 
 ### Installing
 ***MOD IS NOT AVAILABLE YET***
@@ -22,9 +19,7 @@ Download the Mod from the source [Here](https://github.com/UKMinecrafted/arcticm
 
 Move the mod into the mod folder in your .minecraft folder
 
-```
 and click play and enjoy
-```
 
 **Or you could just use the [Twitch/Curse Client](https://app.twitch.tv/download)
 ## Versioning
