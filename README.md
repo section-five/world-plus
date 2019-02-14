@@ -1,4 +1,4 @@
-# Arctic Mod ![](https://img.shields.io/badge/Creator-UKMinecrafted-orange.svg) ![](https://img.shields.io/badge/Minecraft-1.12.2-blue.svg) ![](https://img.shields.io/badge/Owner-BPTeam-blue.svg) ![](https://img.shields.io/badge/Discord-Online-lightgreen.svg)
+# Arctic Mod ![](https://img.shields.io/badge/Creator-UKMinecrafted-orange.svg) ![](https://img.shields.io/badge/Minecraft-1.12.2-blue.svg) ![](https://img.shields.io/badge/Owner-BPTeam-blue.svg) ![](https://img.shields.io/badge/Mod%20Status-Incomplete-red.svg)
 
 The Arctic Mod adds things that you would find in the arctic.
 
