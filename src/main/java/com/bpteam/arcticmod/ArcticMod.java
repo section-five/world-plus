@@ -1,6 +1,7 @@
 package com.bpteam.arcticmod;
 
 import com.bpteam.arcticmod.init.ModBlocks;
+import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.proxy.ClientProxy;
 import com.bpteam.arcticmod.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
@@ -25,6 +26,8 @@ public class ArcticMod
     public static ClientProxy clientproxy;
 
     private static Logger logger;
+
+    public static final CustomCreativeTab CUSTOM_TAB = new CustomCreativeTab("myCustomTab", ModItems.BLUE_ICE);
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)

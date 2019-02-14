@@ -15,12 +15,13 @@ public class ColoredIce extends Block implements IHasModel {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(ArcticMod.blocks);
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
 
-    @Override
-    public void registerModels() {
-        ArcticMod.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
-    }
+		@Override
+		public void registerModels()
+		{
+			ArcticMod.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
+		}
+	}
 }
