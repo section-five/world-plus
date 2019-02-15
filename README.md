@@ -40,3 +40,9 @@ This project is licensed under the GNU Public Licence 3.0  License - see the [LI
 ## Acknowledgments
 
 * Asc4Yin for being willing to help.
+
+## Contact
+You can contact us at the following below
+* bpteammc@gmail.com
+* @bpteammc on Social Media
+* and on our [Discord](https://discord.gg/R6GQ4PU), @UKMinecrafted
