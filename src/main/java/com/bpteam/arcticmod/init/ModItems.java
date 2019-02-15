@@ -14,6 +14,7 @@ public class ModItems {
 	public static final Block ORANGE_ICE = new ColoredIce("orange_ice", Material.ICE);
 	public static final Block MAGENTA_ICE = new ColoredIce("magenta_ice", Material.ICE);
 	public static final Block LIGHT_BLUE_ICE = new ColoredIce("light_blue_ice", Material.ICE);
+	public static final Block LIME_ICE = new ColoredIce("lime_ice", Material.ICE);
 	public static final Block YELLOW_ICE = new ColoredIce("yellow_ice", Material.ICE);
 	public static final Block PINK_ICE = new ColoredIce("pink_ice", Material.ICE);
 	public static final Block GRAY_ICE = new ColoredIce("gray_ice", Material.ICE);

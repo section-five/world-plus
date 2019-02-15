@@ -14,7 +14,6 @@ public class CommonProxy {
 
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		@SuppressWarnings("unused")
 		File dir = event.getModConfigurationDirectory();
 	}
 
