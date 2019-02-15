@@ -1,6 +1,6 @@
 package com.bpteam.arcticmod.util.handlers;
 
-public interface IHasModel {
+public interface IHasModel
+{
     void registerModels();
-
 }
