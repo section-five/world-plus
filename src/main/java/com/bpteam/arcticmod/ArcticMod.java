@@ -1,7 +1,6 @@
 package com.bpteam.arcticmod;
 
 import com.bpteam.arcticmod.init.ModBlocks;
-import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.proxy.ClientProxy;
 import com.bpteam.arcticmod.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;

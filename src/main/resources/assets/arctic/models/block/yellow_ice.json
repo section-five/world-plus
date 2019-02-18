@@ -1,6 +1,6 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"all": "arctic:blocks/red_ice"
+		"all": "arctic:blocks/yellow_ice"
 	}
 }

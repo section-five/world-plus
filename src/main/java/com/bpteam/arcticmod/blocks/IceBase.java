@@ -10,8 +10,8 @@ import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class RedIce extends Block implements IHasModel {
-    public RedIce(String name, Material material) {
+public class IceBase extends Block implements IHasModel {
+    public IceBase(String name, Material material) {
         super(material);
         setUnlocalizedName(name);
         setRegistryName(name);
