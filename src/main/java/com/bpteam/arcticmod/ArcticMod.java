@@ -1,10 +1,12 @@
 package com.bpteam.arcticmod;
 
-import com.bpteam.arcticmod.init.BlocksTab;
+import com.bpteam.arcticmod.init.ModBlocks;
+import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.proxy.ClientProxy;
 import com.bpteam.arcticmod.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -25,7 +27,14 @@ public class ArcticMod
 
     private static Logger logger;
 
-    public static final CreativeTabs BLOCKS = new BlocksTab();
+    public static CreativeTabs blocks = new CreativeTabs("blocks")
+    {
+        @Override
+        public ItemStack getTabIconItem()
+        {
+            return new ItemStack(ModBlocks.RED_ICE);
+        }
+    };
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)

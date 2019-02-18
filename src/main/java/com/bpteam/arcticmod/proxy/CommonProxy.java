@@ -28,6 +28,6 @@ public class CommonProxy {
 			config.save();
 		}
 	}
-
-	public void registerItemRenderer(Item item, int meta, String id) {}
+	public void registerItemRenderer(Item itemFromBlock, int i, String inventory) {
+	}
 }
