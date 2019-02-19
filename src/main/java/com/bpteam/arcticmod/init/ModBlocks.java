@@ -2,6 +2,9 @@ package com.bpteam.arcticmod.init;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.bpteam.arcticmod.blocks.BlockBase;
+import com.bpteam.arcticmod.blocks.FrozenLantern;
 import com.bpteam.arcticmod.blocks.IceBase;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -25,4 +28,12 @@ public class ModBlocks {
 	public static final Block BROWN_ICE = new IceBase("brown_ice", Material.ICE);
 	public static final Block GREEN_ICE = new IceBase("green_ice", Material.ICE);
 	public static final Block BLACK_ICE = new IceBase("black_ice", Material.ICE);
+
+	//Blocks
+	public static final Block FROZEN_LAMP = new FrozenLantern("frozen_lamp", Material.REDSTONE_LIGHT);
+	public static final Block SNOWY_BRICKS = new BlockBase("snowy_bricks", Material.SNOW);
+	public static final Block CRACKED_SNOWY_BRICKS = new BlockBase("cracked_snowy_bricks", Material.SNOW);
+	public static final Block CHISELED_SNOWY_BRICKS = new BlockBase("chiseled_snowy_bricks", Material.SNOW);
+	public static final Block MOSSY_SNOWY_BRICKS = new BlockBase("mossy_snowy_bricks", Material.SNOW);
+	public static final Block SNOWY_SAND = new BlockBase("snowy_sand", Material.SAND);
 }
