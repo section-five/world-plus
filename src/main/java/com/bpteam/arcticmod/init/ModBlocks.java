@@ -34,5 +34,6 @@ public class ModBlocks {
 	public static final Block SNOWY_BRICKS = new BlockBase("snowy_bricks", Material.SNOW);
 	public static final Block CRACKED_SNOWY_BRICKS = new BlockBase("cracked_snowy_bricks", Material.SNOW);
 	public static final Block CHISELED_SNOWY_BRICKS = new BlockBase("chiseled_snowy_bricks", Material.SNOW);
-	public static final Block MOSEY_SNOWY_BRICKS = new BlockBase("mossey_snowy_bricks", Material.SNOW);
+	public static final Block MOSSY_SNOWY_BRICKS = new BlockBase("mossy_snowy_bricks", Material.SNOW);
+	public static final Block SNOWY_SAND = new BlockBase("snowy_sand", Material.SAND);
 }

@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "arctic:blocks/snowy_bricks"
+	}
+}
