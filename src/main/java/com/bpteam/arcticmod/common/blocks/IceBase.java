@@ -1,4 +1,4 @@
-package com.bpteam.arcticmod.blocks;
+package com.bpteam.arcticmod.common.blocks;
 
 
 import com.bpteam.arcticmod.ArcticMod;

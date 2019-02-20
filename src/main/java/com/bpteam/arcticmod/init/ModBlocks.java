@@ -3,9 +3,9 @@ package com.bpteam.arcticmod.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.bpteam.arcticmod.blocks.BlockBase;
-import com.bpteam.arcticmod.blocks.FrozenLantern;
-import com.bpteam.arcticmod.blocks.IceBase;
+import com.bpteam.arcticmod.common.blocks.BlockBase;
+import com.bpteam.arcticmod.common.blocks.FrozenLantern;
+import com.bpteam.arcticmod.common.blocks.IceBase;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
