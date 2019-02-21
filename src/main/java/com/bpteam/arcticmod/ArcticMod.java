@@ -1,17 +1,20 @@
 package com.bpteam.arcticmod;
 
 import com.bpteam.arcticmod.init.ModBlocks;
+import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.proxy.ClientProxy;
 import com.bpteam.arcticmod.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import org.apache.logging.log4j.Logger;
+//import net.minecraft.init.Blocks;
+//import org.apache.logging.log4j.Logger;
+
+import java.io.File;
 
 @Mod(modid = ArcticMod.MODID, name = ArcticMod.NAME, version = ArcticMod.VERSION)
 public class ArcticMod
@@ -24,7 +27,7 @@ public class ArcticMod
     public static CommonProxy proxy;
     public static ClientProxy clientproxy;
 
-    private static Logger logger;
+    //private static Logger logger; (unused right now)
 
     public static CreativeTabs blocks = new CreativeTabs("blocks")
     {
@@ -34,17 +37,28 @@ public class ArcticMod
             return new ItemStack(ModBlocks.RED_ICE);
         }
     };
+    public static CreativeTabs items = new CreativeTabs("items")
+    {
+        @Override
+        public ItemStack getTabIconItem()
+        {
+            return new ItemStack(ModItems.WEAKER_ICE_BALL);
+        }
+    };
+
+    public static File config;
+    public static Object instance;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        logger = event.getModLog();
+        //logger = event.getModLog(); (unused right now)
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
         // some example code
-        logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        //logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName()); (unused right now)
     }
 }
