@@ -18,7 +18,7 @@ public class ArcticMod
 {
     public static final String MODID = "arctic";
     public static final String NAME = "Arctic Mod";
-    public static final String VERSION = "0.2.1";
+    public static final String VERSION = "0.3";
     public static final String UPDATEURL = "https://raw.githubusercontent.com/bpteammc/arcticmod/master/update.json";
 
     @SidedProxy(clientSide = Reference.CLIENTPROXY, serverSide = Reference.COMMONPROXY)
@@ -46,6 +46,6 @@ public class ArcticMod
     public void init(FMLInitializationEvent event)
     {
         // some example code
-        logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        //logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName()); unused
     }
 }
