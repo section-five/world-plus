@@ -1,0 +1,12 @@
+{
+  "homepage": "https://minecraft.curseforge.com/projects/arctic-plus",
+
+  "promos": {
+    "1.12.2-latest": "0.1",
+    "1.12.2-recommended": "0.1"
+  },
+
+  "1.12.2": {
+    "0.1": "First Release"
+  }
+}
