@@ -23,7 +23,7 @@ public class ModConfig {
             @Config.LangKey("config.arctic.spawn.penguin.max_spawn")
             @Config.Comment("The maximum amount of penguins per biome")
             @Config.RangeInt(max = 25)
-            public int maximumSpawn = 4;
+            public int maximumSpawn = 5;
 
             @Config.LangKey("config.arctic.spawn.penguin.spawn_probability")
             @Config.Comment("The penguin spawn probability rate")
