@@ -32,17 +32,13 @@ For Versions we use this format: Release.Beta.Alpha/Patch As an example a releas
 
 
 * **[Asc4](https://GitHub.com/Asc4Yin)** - *Colored Ice Textures, Penguin Model*
+* **[Josia50](https://GitHub.com/Josia50)** - *update.json*
 
 ## License
 
 This project is licensed under the GNU Public Licence 3.0  License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* Asc4Yin for being willing to help.
-
 ## Contact
 You can contact us at the following below
 * bpteammc@gmail.com
-* @bpteammc on Social Media
 * and on our [Discord](https://discord.gg/R6GQ4PU), @UKMinecrafted
