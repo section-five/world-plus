@@ -22,7 +22,7 @@ public class ModConfig {
         public static class Penguin {
             @Config.LangKey("config.arctic.spawn.penguin.max_spawn")
             @Config.Comment("The maximum amount of penguins per biome")
-            @Config.RangeInt(min = 51, max = 100)
+            @Config.RangeInt(max = 25)
             public int maximumSpawn = 4;
 
             @Config.LangKey("config.arctic.spawn.penguin.spawn_probability")
@@ -31,7 +31,7 @@ public class ModConfig {
 
             @Config.LangKey("config.arctic.spawn.penguin.min_spawn")
             @Config.Comment("The minimum amount of penguins per biome")
-            @Config.RangeInt(min = 1, max = 50)
+            @Config.RangeInt(min = 1, max = 24)
             public int minimumSpawn = 2;
 
             @Config.LangKey("config.arctic.spawn.penguin.spawntype")
