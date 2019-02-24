@@ -2,7 +2,7 @@ package com.bpteam.arcticmod.client.render;
 
 import com.bpteam.arcticmod.Reference;
 import com.bpteam.arcticmod.client.models.ModelPenguin;
-import com.bpteam.arcticmod.common.entitys.EntityPenguin;
+import com.bpteam.arcticmod.common.entities.EntityPenguin;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.util.ResourceLocation;

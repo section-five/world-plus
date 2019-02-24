@@ -6,7 +6,8 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 
-public class ClientProxy extends com.bpteam.arcticmod.proxy.CommonProxy {
+public class
+ClientProxy extends com.bpteam.arcticmod.proxy.CommonProxy {
 
 	@Override
 	public void init(FMLInitializationEvent event)

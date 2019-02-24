@@ -4,6 +4,7 @@ import com.bpteam.arcticmod.init.ModBlocks;
 import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.proxy.ClientProxy;
 import com.bpteam.arcticmod.proxy.CommonProxy;
+import com.bpteam.arcticmod.util.handlers.RegistryHandler;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
@@ -52,6 +53,7 @@ public class ArcticMod
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+        RegistryHandler.PreInitRegistry(event);
         //logger = event.getModLog(); (unused right now)
     }
 
