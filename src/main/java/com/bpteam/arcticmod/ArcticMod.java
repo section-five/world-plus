@@ -31,20 +31,21 @@ public class ArcticMod
 
     //private static Logger logger; (unused right now)
 
-    public static CreativeTabs blocks = new CreativeTabs("blocks")
-    {
-        @Override
-        public ItemStack getTabIconItem()
-        {
-            return new ItemStack(ModBlocks.RED_ICE);
-        }
-    };
     public static CreativeTabs items = new CreativeTabs("items")
     {
         @Override
         public ItemStack getTabIconItem()
         {
             return new ItemStack(ModItems.WEAKER_ICE_BALL);
+        }
+    };
+
+    public static CreativeTabs blocks = new CreativeTabs("blocks")
+    {
+        @Override
+        public ItemStack getTabIconItem()
+        {
+            return new ItemStack(ModBlocks.RED_ICE);
         }
     };
 
