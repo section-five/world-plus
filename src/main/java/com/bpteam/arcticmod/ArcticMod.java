@@ -22,7 +22,7 @@ public class ArcticMod
 {
     public static final String MODID = "arctic";
     public static final String NAME = "Arctic Mod";
-    public static final String VERSION = "0.2.1";
+    public static final String VERSION = "1.0";
 
     @SidedProxy(clientSide = Reference.CLIENTPROXY, serverSide = Reference.COMMONPROXY)
     public static CommonProxy proxy;
