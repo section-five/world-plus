@@ -12,7 +12,7 @@ import java.util.List;
 public class ModBlocks {
 	//Ice
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
-	public static final Block RED_ICE = new IceBase("red_ice", Material.ROCK);
+	public static final Block RED_ICE = new IceBase("red_ice", Material.ICE);
 	public static final Block WHITE_ICE = new IceBase("white_ice", Material.ICE);
 	public static final Block ORANGE_ICE = new IceBase("orange_ice", Material.ICE);
 	public static final Block MAGENTA_ICE = new IceBase("magenta_ice", Material.ICE);
@@ -31,9 +31,9 @@ public class ModBlocks {
 
 	//Blocks
 	public static final Block FROZEN_LAMP = new FrozenLantern("frozen_lamp", Material.REDSTONE_LIGHT);
-	public static final Block SNOWY_BRICKS = new BlockBase("snowy_bricks", Material.SNOW);
-	public static final Block CRACKED_SNOWY_BRICKS = new BlockBase("cracked_snowy_bricks", Material.SNOW);
-	public static final Block CHISELED_SNOWY_BRICKS = new BlockBase("chiseled_snowy_bricks", Material.SNOW);
-	public static final Block MOSSY_SNOWY_BRICKS = new BlockBase("mossy_snowy_bricks", Material.SNOW);
+	public static final Block SNOWY_BRICKS = new BlockBase("snowy_bricks", Material.ROCK);
+	public static final Block CRACKED_SNOWY_BRICKS = new BlockBase("cracked_snowy_bricks", Material.ROCK);
+	public static final Block CHISELED_SNOWY_BRICKS = new BlockBase("chiseled_snowy_bricks", Material.ROCK);
+	public static final Block MOSSY_SNOWY_BRICKS = new BlockBase("mossy_snowy_bricks", Material.ROCK);
 	public static final Block SNOWY_SAND = new BlockBase("snowy_sand", Material.SAND);
 }
