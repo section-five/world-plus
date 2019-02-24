@@ -25,7 +25,7 @@ public class ModEntities {
     // Entities
     @GameRegistry.ObjectHolder(ArcticMod.MODID)
     public static class EntityEntries {
-        public static final EntityEntry PENGUIN = EntityEntryBuilder.create().entity(EntityPenguin.class).id(new ResourceLocation(ArcticMod.MODID, "penguin"), 0).name("penguin").tracker(80, 3, true).build();
+        public static final EntityEntry PENGUIN = EntityEntryBuilder.create().entity(EntityPenguin.class).id(new ResourceLocation(ArcticMod.MODID, "penguin"), 0).name("penguin").tracker(80, 3, true).egg(11437146,000000).build();
     }
 
 }

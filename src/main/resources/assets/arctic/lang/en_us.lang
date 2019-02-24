@@ -25,3 +25,6 @@ tile.snowy_bricks.name=Snowy Bricks
 tile.mossy_snowy_bricks.name=Mossy Snowy Bricks
 tile.frozen_lamp.name=Frozen Lamp
 tile.snowy_sand.name=Snowy Sand
+
+//Entity
+entity.penguin.name=Penguin
