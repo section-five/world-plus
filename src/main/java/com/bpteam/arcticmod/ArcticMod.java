@@ -39,13 +39,12 @@ public class ArcticMod
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        logger = event.getModLog();
+        //logger = event.getModLog(); (unused right now)
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-        // some example code
-        logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+
     }
 }
