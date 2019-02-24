@@ -30,7 +30,7 @@ tile.snowy_sand.name=Snowy Sand
 //Items
 item.stronger_ice_ball.name=Stronger Ice Ball
 item.weaker_ice_ball.name=Weaker Ice Ball
-
+item.hammer.name=Hammer
 //Entity
 entity.penguin.name=Penguin
 

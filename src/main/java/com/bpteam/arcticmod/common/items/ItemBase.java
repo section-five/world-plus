@@ -2,7 +2,7 @@ package com.bpteam.arcticmod.common.items;
 
 import com.bpteam.arcticmod.ArcticMod;
 import com.bpteam.arcticmod.init.ModItems;
-import com.bpteam.arcticmod.util.handlers.IHasModel;
+import com.bpteam.arcticmod.util.IHasModel;
 import net.minecraft.item.Item;
 
 public class ItemBase extends Item implements IHasModel {

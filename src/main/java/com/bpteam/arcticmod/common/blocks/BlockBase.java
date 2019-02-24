@@ -3,7 +3,7 @@ package com.bpteam.arcticmod.common.blocks;
 import com.bpteam.arcticmod.ArcticMod;
 import com.bpteam.arcticmod.init.ModBlocks;
 import com.bpteam.arcticmod.init.ModItems;
-import com.bpteam.arcticmod.util.handlers.IHasModel;
+import com.bpteam.arcticmod.util.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;

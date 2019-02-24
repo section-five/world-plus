@@ -2,6 +2,7 @@ package com.bpteam.arcticmod.util.handlers;
 
 import com.bpteam.arcticmod.init.ModBlocks;
 import com.bpteam.arcticmod.init.ModItems;
+import com.bpteam.arcticmod.util.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
