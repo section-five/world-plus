@@ -1,31 +1,35 @@
 package com.bpteam.arcticmod;
 
 import com.bpteam.arcticmod.init.ModBlocks;
+import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.proxy.ClientProxy;
 import com.bpteam.arcticmod.proxy.CommonProxy;
+import com.bpteam.arcticmod.util.handlers.RegistryHandler;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import org.apache.logging.log4j.Logger;
+//import net.minecraft.init.Blocks;
+//import org.apache.logging.log4j.Logger;
+
+import java.io.File;
 
 @Mod(modid = ArcticMod.MODID, name = ArcticMod.NAME, version = ArcticMod.VERSION, updateJSON = ArcticMod.UPDATEURL)
 public class ArcticMod
 {
     public static final String MODID = "arctic";
     public static final String NAME = "Arctic Mod";
-    public static final String VERSION = "0.3";
+    public static final String VERSION = "1.0";
     public static final String UPDATEURL = "https://raw.githubusercontent.com/bpteammc/arcticmod/master/update.json";
 
     @SidedProxy(clientSide = Reference.CLIENTPROXY, serverSide = Reference.COMMONPROXY)
     public static CommonProxy proxy;
     public static ClientProxy clientproxy;
 
-    private static Logger logger;
+    //private static Logger logger; (unused right now)
 
     public static CreativeTabs blocks = new CreativeTabs("blocks")
     {
@@ -35,17 +39,29 @@ public class ArcticMod
             return new ItemStack(ModBlocks.RED_ICE);
         }
     };
+    public static CreativeTabs items = new CreativeTabs("items")
+    {
+        @Override
+        public ItemStack getTabIconItem()
+        {
+            return new ItemStack(ModItems.WEAKER_ICE_BALL);
+        }
+    };
+
+    public static File config;
+    public static Object instance;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        logger = event.getModLog();
+        RegistryHandler.PreInitRegistry(event);
+        //logger = event.getModLog(); (unused right now)
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
         // some example code
-        //logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName()); unused
+        //logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName()); (unused right now)
     }
 }
