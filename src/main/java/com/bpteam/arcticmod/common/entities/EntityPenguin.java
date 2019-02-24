@@ -44,6 +44,7 @@ public class EntityPenguin extends EntityCow
         this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.25D);
     }
 
+
     @Override
     public float getEyeHeight() {
         return 2.6F;
