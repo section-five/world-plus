@@ -1,4 +1,4 @@
-package com.bpteam.arcticmod.init;
+package com.bpteam.arcticmod.config;
 
 import com.bpteam.arcticmod.ArcticMod;
 import net.minecraft.entity.EnumCreatureType;
@@ -20,27 +20,27 @@ public class ModConfig {
         public final Penguin penguin = new Penguin();
 
         public static class Penguin {
-            @Config.LangKey("config.weeping-angels.max_spawn")
-            @Config.Comment("The maximum amount of angels per biome")
-            @Config.RangeInt(max = 25)
+            @Config.LangKey("config.arctic.spawn.penguin.max_spawn")
+            @Config.Comment("The maximum amount of penguins per biome")
+            @Config.RangeInt(min = 51, max = 100)
             public int maximumSpawn = 4;
 
-            @Config.LangKey("config.weeping-angels.spawn_probability")
-            @Config.Comment("The angel spawn probability rate")
+            @Config.LangKey("config.arctic.spawn.penguin.spawn_probability")
+            @Config.Comment("The penguin spawn probability rate")
             public int spawnProbability = 50;
 
-            @Config.LangKey("config.weeping-angels.min_spawn")
-            @Config.Comment("The minimum amount of angels per biome")
-            @Config.RangeInt(max = 24)
+            @Config.LangKey("config.arctic.spawn.penguin.min_spawn")
+            @Config.Comment("The minimum amount of penguins per biome")
+            @Config.RangeInt(min = 1, max = 50)
             public int minimumSpawn = 2;
 
-            @Config.LangKey("config.weeping-angels.spawntype")
+            @Config.LangKey("config.arctic.spawn.penguin.spawntype")
             @Config.Comment("This will only accept: WATER_CREATURE, AMBIENT, CREATURE, MONSTER || Anything else WILL crash your game.")
             @Config.RequiresMcRestart
             public EnumCreatureType spawnType = EnumCreatureType.AMBIENT;
 
-            @Config.LangKey("config.weeping-angels.disallowed_spawn_biomes")
-            @Config.Comment("Note: A list of biomes where angels should NOT spawn.")
+            @Config.LangKey("config.arctic.spawn.penguin.allowed_spawn_biomes")
+            @Config.Comment("Note: A list of biomes where penguins SHOULD spawn.")
             public String[] AllowedBiomes = {"minecraft:snowy_mountains", "minecraft:snowy_tundra", "minecraft:snowy_beach", "minecraft:frozen_river", "minecraft:snowy_taiga_hills"};
         }
     }

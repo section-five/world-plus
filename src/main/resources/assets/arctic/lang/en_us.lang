@@ -28,3 +28,12 @@ tile.snowy_sand.name=Snowy Sand
 
 //Entity
 entity.penguin.name=Penguin
+
+//Config
+category.arctic.spawn=Spawn
+category.arctic.spawn.penguin=Penguin
+config.arctic.spawn.penguin.max_spawn=Maximum Spawn Rate
+config.arctic.spawn.penguin.spawn_probability=Spawn Probability
+config.arctic.spawn.penguin.min_spawn=Minimum Spawn Rate
+config.arctic.spawn.penguin.spawntype=Spawn Type
+config.arctic.spawn.penguin.allowed_spawn_biomes=Allowed Spawn Biomes

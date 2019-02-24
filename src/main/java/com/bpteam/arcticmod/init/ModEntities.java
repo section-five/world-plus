@@ -2,11 +2,10 @@ package com.bpteam.arcticmod.init;
 
 import com.bpteam.arcticmod.ArcticMod;
 import com.bpteam.arcticmod.common.entities.EntityPenguin;
+import com.bpteam.arcticmod.config.ModConfig;
 import com.google.common.collect.Lists;
-import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.biome.Biome;
-import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -31,7 +30,7 @@ public class ModEntities {
     // Entities
     @GameRegistry.ObjectHolder(ArcticMod.MODID)
     public static class EntityEntries {
-        public static final EntityEntry PENGUIN = EntityEntryBuilder.create().entity(EntityPenguin.class).id(new ResourceLocation(ArcticMod.MODID, "penguin"), 0).name("penguin").tracker(80, 3, true).egg(11437146,000000).build();
+        public static final EntityEntry PENGUIN = EntityEntryBuilder.create().entity(EntityPenguin.class).id(new ResourceLocation(ArcticMod.MODID, "penguin"), 0).name("penguin").tracker(80, 3, true).egg(11437146,000000).spawn(ModConfig.spawn.penguin.spawnType, ModConfig.spawn.penguin.spawnProbability, ModConfig.spawn.penguin.minimumSpawn,ModConfig.spawn.penguin.maximumSpawn, Biome.getBiomeForId(13)).build();
     }
 
     //.spawn(EnumCreatureType.AMBIENT, 5,5,20,Biome.getBiome())

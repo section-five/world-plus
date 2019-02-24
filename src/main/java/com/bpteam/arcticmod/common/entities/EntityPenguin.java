@@ -22,7 +22,7 @@ public class EntityPenguin extends EntityCow
     @Override
     protected void initEntityAI() {
         this.tasks.addTask(0, new EntityAISwimming(this));
-        this.tasks.addTask(1, new EntityAIPanic(this, 2.0D));
+        this.tasks.addTask(1, new EntityAIPanic(this, 1.5D));
         this.tasks.addTask(2, new EntityAIMate(this, 1.0D));
         this.tasks.addTask(3, new EntityAITempt(this, 1.25D, ModItems.WEAKER_ICE_BALL, false));
         this.tasks.addTask(4, new EntityAIFollowParent(this, 1.25D));
