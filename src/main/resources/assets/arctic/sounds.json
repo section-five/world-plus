@@ -1,0 +1,12 @@
+{
+  "penguinhonk": {
+    "category": "master",
+    "subtitle": "sound.honk",
+    "sounds": [
+      {
+        "name": "arctic:honk",
+        "stream": false
+      }
+    ]
+  }
+}

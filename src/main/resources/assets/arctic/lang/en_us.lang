@@ -1,5 +1,6 @@
 //Creative Tabs
 itemGroup.blocks=Arctic Mod Blocks
+itemGroup.items=Arctic Mod Items
 
 //Blocks
 tile.red_ice.name=Red Ice
@@ -25,3 +26,19 @@ tile.snowy_bricks.name=Snowy Bricks
 tile.mossy_snowy_bricks.name=Mossy Snowy Bricks
 tile.frozen_lamp.name=Frozen Lamp
 tile.snowy_sand.name=Snowy Sand
+
+//Items
+item.stronger_ice_ball.name=Stronger Ice Ball
+item.weaker_ice_ball.name=Weaker Ice Ball
+
+//Entity
+entity.penguin.name=Penguin
+
+//Config
+category.arctic.spawn=Spawn
+category.arctic.spawn.penguin=Penguin
+config.arctic.spawn.penguin.max_spawn=Maximum Spawn Rate
+config.arctic.spawn.penguin.spawn_probability=Spawn Probability
+config.arctic.spawn.penguin.min_spawn=Minimum Spawn Rate
+config.arctic.spawn.penguin.spawntype=Spawn Type
+config.arctic.spawn.penguin.allowed_spawn_biomes=Allowed Spawn Biomes
