@@ -39,6 +39,5 @@ public class RegistryHandler {
     }
 
     public static void PreInitRegistry(FMLPreInitializationEvent event) {
-        RenderHandler.registerEntityRenders();
     }
 }

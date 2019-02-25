@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 
-@Mod.EventBusSubscriber(value = Side.CLIENT)
+@Mod.EventBusSubscriber
 public class EventHandler {
 
     @SubscribeEvent
