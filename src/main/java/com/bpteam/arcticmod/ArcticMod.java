@@ -55,7 +55,7 @@ public class ArcticMod
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        RegistryHandler.PreInitRegistry(event);
+        proxy.preInit(event);
     }
 
     @EventHandler
