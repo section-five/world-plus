@@ -17,12 +17,13 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 import java.io.File;
 
-@Mod(modid = ArcticMod.MODID, name = ArcticMod.NAME, version = ArcticMod.VERSION, updateJSON = ArcticMod.UPDATEURL)
+@Mod(modid = ArcticMod.MODID, name = ArcticMod.NAME, version = ArcticMod.VERSION,dependencies = ArcticMod.DEPENDENCIES, updateJSON = ArcticMod.UPDATEURL)
 public class ArcticMod
 {
     public static final String MODID = "arctic";
     public static final String NAME = "Arctic Mod";
     public static final String VERSION = "1.0.0";
+    public static final String DEPENDENCIES = "required-after:forge@[14.23.2.2638,)";
     public static final String UPDATEURL = "https://raw.githubusercontent.com/bpteammc/arcticmod/master/update.json";
 
     @SidedProxy(clientSide = Reference.CLIENTPROXY, serverSide = Reference.COMMONPROXY)
