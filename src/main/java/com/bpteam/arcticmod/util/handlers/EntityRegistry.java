@@ -1,4 +1,4 @@
-package com.bpteam.arcticmod.init;
+package com.bpteam.arcticmod.util.handlers;
 
 import com.bpteam.arcticmod.ArcticMod;
 import com.bpteam.arcticmod.common.entities.EntityPenguin;
@@ -18,7 +18,7 @@ import java.util.Collection;
 /*24/028/19 Josia50*/
 
 @Mod.EventBusSubscriber
-public class ModEntities {
+public class EntityRegistry {
 
     @SubscribeEvent
     public static void addEntities(RegistryEvent.Register<EntityEntry> e) {
@@ -47,10 +47,8 @@ public class ModEntities {
 
         SPAWNS.forEach(biome -> {
             if (biome != null) {
-                EntityRegistry.addSpawn(EntityPenguin.class, ModConfig.spawn.penguin.spawnProbability, ModConfig.spawn.penguin.minimumSpawn, ModConfig.spawn.penguin.maximumSpawn, ModConfig.spawn.penguin.spawnType, biome);
+                net.minecraftforge.fml.common.registry.EntityRegistry.addSpawn(EntityPenguin.class, ModConfig.spawn.penguin.spawnProbability, ModConfig.spawn.penguin.minimumSpawn, ModConfig.spawn.penguin.maximumSpawn, ModConfig.spawn.penguin.spawnType, biome);
             }
         });
     }
-
-
 }
