@@ -11,12 +11,13 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 @Mod.EventBusSubscriber
-public class EventHandler {
+public class ACEventHandler {
 
     @SubscribeEvent
     public static void BreakBlock(BlockEvent.BreakEvent event) {
         EntityPlayer player = event.getPlayer();
         BlockPos pos1 = event.getPos();
+        ItemStack itemStack = player.getActiveItemStack();
         if (player.world.getBlockState(pos1).getBlock() == Blocks.ICE) {
             player.world.spawnEntity(new EntityItem(player.world, pos1.getX(), pos1.getY(), pos1.getZ(), new ItemStack(ModItems.WEAKER_ICE_BALL)));
         }
