@@ -16,6 +16,8 @@ public class FrozenLantern extends Block implements IHasModel {
         setRegistryName(name);
         setLightLevel(1.0F);
         setCreativeTab(ArcticMod.blocks);
+        slipperiness = 0.98F;
+
         ModBlocks.BLOCKS.add(this);
         ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
