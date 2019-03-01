@@ -27,12 +27,12 @@ For Versions we use this format: Release.Beta.Alpha/Patch As an example a releas
 ## Authors
 
 * **[UKMinecrafted](https://GitHub.com/UKMinecrafted)** - *Mod Creator*
+* **[Josia50](https://GitHub.com/Josia50)** - *BPTeam*
 
 ## Contributors
 
 
 * **[Asc4](https://GitHub.com/Asc4Yin)** - *Colored Ice Textures, Penguin Model*
-* **[Josia50](https://GitHub.com/Josia50)** - *update.json, penguin spawning and error fixes*
 
 ## License
 
