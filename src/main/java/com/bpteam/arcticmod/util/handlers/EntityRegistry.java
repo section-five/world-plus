@@ -15,7 +15,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 import java.util.ArrayList;
 import java.util.Collection;
 
-/*24/028/19 Josia50*/
+/*24/02/19 Josia50*/
 
 @Mod.EventBusSubscriber
 public class EntityRegistry {
