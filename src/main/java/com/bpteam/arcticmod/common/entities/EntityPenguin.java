@@ -48,8 +48,18 @@ public class EntityPenguin extends EntityCow {
     }
 
     @Override
+    protected void updateAITasks() {
+        super.updateAITasks();
+    }
+
+    @Override
+    public void onUpdate() {
+        super.onUpdate();
+    }
+
+    @Override
     public float getEyeHeight() {
-        return 2.6F;
+        return 0.6F;
     }
 
     @Override
