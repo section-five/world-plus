@@ -1,21 +1,21 @@
 package com.bpteam.arcticmod.common.blocks;
 
-
 import com.bpteam.arcticmod.ArcticMod;
 import com.bpteam.arcticmod.init.ModBlocks;
 import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.util.IHasModel;
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
+import net.minecraft.block.BlockIce;
+import net.minecraft.block.SoundType;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class IceBase extends Block implements IHasModel {
-    public IceBase(String name, Material material) {
-        super(material);
+public class IceBase extends BlockIce implements IHasModel {
+    public IceBase(String name) {
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(ArcticMod.blocks);
+        setSoundType(SoundType.GLASS);
+
         ModBlocks.BLOCKS.add(this);
         ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
