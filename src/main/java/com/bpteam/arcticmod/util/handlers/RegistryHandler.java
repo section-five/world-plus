@@ -41,4 +41,8 @@ public class RegistryHandler {
             }
         }
     }
+
+    public static void PreInit(FMLPreInitializationEvent event) {
+        SoundsHandler.registerSounds();
+    }
 }

@@ -2,15 +2,18 @@ package com.bpteam.arcticmod.common.entities;
 
 import com.bpteam.arcticmod.util.handlers.LootTableHandler;
 import com.bpteam.arcticmod.util.handlers.SoundsHandler;
+import net.minecraft.block.Block;
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.*;
 import net.minecraft.entity.passive.EntityCow;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
+import net.minecraft.init.SoundEvents;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class EntityPenguin extends EntityCow
@@ -52,7 +55,7 @@ public class EntityPenguin extends EntityCow
 
     @Override
     public EntityCow createChild(EntityAgeable ageable) {
-        return new EntityPenguin(world);
+        return new EntityPenguin(this.world);
     }
 
     @Override
@@ -62,16 +65,22 @@ public class EntityPenguin extends EntityCow
 
     @Override
     protected SoundEvent getAmbientSound() {
-        return SoundsHandler.PENGUIN_HONK;
+        return SoundsHandler.PENGUIN_AMBIENT;
     }
 
     @Override
     protected SoundEvent getHurtSound(DamageSource source) {
-        return SoundsHandler.PENGUIN_HONK;
+        return SoundsHandler.PENGUIN_HURT;
     }
 
     @Override
     protected SoundEvent getDeathSound() {
-        return SoundsHandler.PENGUIN_HONK;
+        return SoundsHandler.PENGUIN_DEATH;
+    }
+
+
+    @Override
+    protected void playStepSound(BlockPos pos, Block blockIn) {
+        this.playSound( SoundEvents.BLOCK_SNOW_STEP, 1,1);
     }
 }
