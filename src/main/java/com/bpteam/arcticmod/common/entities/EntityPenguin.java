@@ -1,6 +1,5 @@
 package com.bpteam.arcticmod.common.entities;
 
-import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.util.handlers.LootTableHandler;
 import com.bpteam.arcticmod.util.handlers.SoundsHandler;
 import net.minecraft.entity.EntityAgeable;
@@ -45,9 +44,6 @@ public class EntityPenguin extends EntityCow
         this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(40.0D);
         this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.25D);
     }
-
-
-
 
     @Override
     public float getEyeHeight() {
