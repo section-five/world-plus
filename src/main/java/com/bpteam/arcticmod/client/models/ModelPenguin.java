@@ -1,5 +1,4 @@
-package com.bpteam.arcticmod.client.models;//Made with Blockbench
-//Paste this code into your mod.
+package com.bpteam.arcticmod.client.models;
 
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelBox;

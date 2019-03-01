@@ -1,7 +1,6 @@
 package com.bpteam.arcticmod.util.handlers;
 
 import com.bpteam.arcticmod.ArcticMod;
-import com.bpteam.arcticmod.Reference;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;

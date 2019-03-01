@@ -1,16 +1,12 @@
 package com.bpteam.arcticmod.util.handlers;
 
-import com.bpteam.arcticmod.client.render.RenderPenguin;
-import com.bpteam.arcticmod.common.entities.EntityPenguin;
 import com.bpteam.arcticmod.init.ModBlocks;
 import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.util.IHasModel;
 import net.minecraft.block.Block;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
-import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;

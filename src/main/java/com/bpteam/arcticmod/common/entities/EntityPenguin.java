@@ -16,8 +16,7 @@ import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class EntityPenguin extends EntityCow
-{
+public class EntityPenguin extends EntityCow {
     public EntityPenguin(World world) {
         super(world);
     }
@@ -33,7 +32,7 @@ public class EntityPenguin extends EntityCow
         this.tasks.addTask(6, new EntityAIWatchClosest(this, EntityPlayer.class, 6.0F));
         this.tasks.addTask(7, new EntityAILookIdle(this));
         this.tasks.addTask(8, new EntityAIWander(this, 1.0D));
-        this.tasks.addTask(9, new EntityAIFollow(this,4,1,1));
+        this.tasks.addTask(9, new EntityAIFollow(this, 4, 1, 1));
     }
 
     @Override
@@ -78,9 +77,8 @@ public class EntityPenguin extends EntityCow
         return SoundsHandler.PENGUIN_DEATH;
     }
 
-
     @Override
     protected void playStepSound(BlockPos pos, Block blockIn) {
-        this.playSound( SoundEvents.BLOCK_SNOW_STEP, 1,1);
+        this.playSound(SoundEvents.BLOCK_SNOW_STEP, 1, 1);
     }
 }
