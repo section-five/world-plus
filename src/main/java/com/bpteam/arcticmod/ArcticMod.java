@@ -28,7 +28,6 @@ public class ArcticMod
 
     @SidedProxy(clientSide = Reference.CLIENTPROXY, serverSide = Reference.COMMONPROXY)
     public static CommonProxy proxy;
-    public static ClientProxy clientproxy;
 
     //private static Logger logger; (unused right now)
 
