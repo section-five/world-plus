@@ -27,7 +27,7 @@ public class ModConfig {
 
             @Config.LangKey("config.arctic.spawn.penguin.spawn_probability")
             @Config.Comment("The penguin spawn probability rate")
-            public int spawnProbability = 50;
+            public int spawnProbability = 500;
 
             @Config.LangKey("config.arctic.spawn.penguin.min_spawn")
             @Config.Comment("The minimum amount of penguins per biome")
