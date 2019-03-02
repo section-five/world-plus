@@ -2,7 +2,6 @@ package com.bpteam.arcticmod;
 
 import com.bpteam.arcticmod.init.ModBlocks;
 import com.bpteam.arcticmod.init.ModItems;
-import com.bpteam.arcticmod.proxy.ClientProxy;
 import com.bpteam.arcticmod.proxy.CommonProxy;
 import com.bpteam.arcticmod.util.handlers.RegistryHandler;
 import net.minecraft.creativetab.CreativeTabs;
@@ -12,8 +11,6 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-//import net.minecraft.init.Blocks;
-//import org.apache.logging.log4j.Logger;
 
 import java.io.File;
 
@@ -28,8 +25,6 @@ public class ArcticMod
 
     @SidedProxy(clientSide = Reference.CLIENTPROXY, serverSide = Reference.COMMONPROXY)
     public static CommonProxy proxy;
-
-    //private static Logger logger; (unused right now)
 
     public static CreativeTabs items = new CreativeTabs("items")
     {
