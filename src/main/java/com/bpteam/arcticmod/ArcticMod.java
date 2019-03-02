@@ -3,6 +3,7 @@ package com.bpteam.arcticmod;
 import com.bpteam.arcticmod.init.ModBlocks;
 import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.proxy.CommonProxy;
+import com.bpteam.arcticmod.util.Reference;
 import com.bpteam.arcticmod.util.handlers.RegistryHandler;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
