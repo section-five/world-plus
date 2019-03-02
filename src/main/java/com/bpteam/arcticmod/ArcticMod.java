@@ -13,8 +13,6 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-import java.io.File;
-
 @Mod(modid = ArcticMod.MODID, name = ArcticMod.NAME, version = ArcticMod.VERSION,dependencies = ArcticMod.DEPENDENCIES, updateJSON = ArcticMod.UPDATEURL)
 public class ArcticMod
 {
@@ -42,9 +40,6 @@ public class ArcticMod
             return new ItemStack(ModBlocks.RED_ICE);
         }
     };
-
-    public static File config;
-    public static Object instance;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)

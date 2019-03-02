@@ -1,7 +1,5 @@
 package com.bpteam.arcticmod.world.biomes;
 
-
-import com.bpteam.arcticmod.common.entities.EntityPenguin;
 import com.bpteam.arcticmod.init.ModBlocks;
 import com.bpteam.arcticmod.world.IBiomeDecorator;
 import net.minecraft.init.Blocks;

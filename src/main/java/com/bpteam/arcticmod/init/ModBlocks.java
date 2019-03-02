@@ -5,7 +5,6 @@ import com.bpteam.arcticmod.common.blocks.BlockFrozenLantern;
 import com.bpteam.arcticmod.common.blocks.BlockIceBase;
 import com.bpteam.arcticmod.common.blocks.BlockIcySnow;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockSnowBlock;
 import net.minecraft.block.material.Material;
 
 import java.util.ArrayList;
