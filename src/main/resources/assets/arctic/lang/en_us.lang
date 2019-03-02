@@ -31,6 +31,12 @@ tile.snowy_sand.name=Snowy Sand
 item.stronger_ice_ball.name=Stronger Ice Ball
 item.weaker_ice_ball.name=Weaker Ice Ball
 item.hammer.name=Hammer
+
+//Sounds
+sounds.penguin_hurt=Penguin Hurt
+sounds.penguin_ambient=Penguin
+sounds.penguin_death=Penguin Death
+
 //Entity
 entity.penguin.name=Penguin
 
