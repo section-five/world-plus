@@ -1,4 +1,4 @@
-package com.bpteam.arcticmod.config;
+package com.bpteam.arcticmod.init;
 
 import com.bpteam.arcticmod.ArcticMod;
 import net.minecraft.entity.EnumCreatureType;
@@ -13,6 +13,13 @@ public class ModConfig {
 
     @Config.LangKey("category.arctic.spawn")
     public static final Spawn spawn = new Spawn();
+    public static final World world = new World();
+
+    public static class World {
+        @Config.LangKey("config.arctic.world.gen_snowy_plains")
+        @Config.Comment("Do this BEFORE you make a world + Overworld gen")
+        public boolean GenSnowyPlains = true;
+    }
 
     public static class Spawn {
 

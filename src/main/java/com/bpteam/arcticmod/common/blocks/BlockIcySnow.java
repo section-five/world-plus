@@ -4,19 +4,17 @@ import com.bpteam.arcticmod.ArcticMod;
 import com.bpteam.arcticmod.init.ModBlocks;
 import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.util.IHasModel;
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
+import net.minecraft.block.BlockIce;
+import net.minecraft.block.SoundType;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class FrozenLantern extends Block implements IHasModel {
-    public FrozenLantern(String name, Material material) {
-        super(material);
-        setUnlocalizedName(name);
+public class BlockIcySnow extends BlockIce implements IHasModel {
+    public BlockIcySnow(String name) {
+        setTranslationKey(name);
         setRegistryName(name);
-        setLightLevel(1.0F);
         setCreativeTab(ArcticMod.blocks);
-        slipperiness = 0.98F;
+        setSoundType(SoundType.GLASS);
 
         ModBlocks.BLOCKS.add(this);
         ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
@@ -26,5 +24,4 @@ public class FrozenLantern extends Block implements IHasModel {
     public void registerModels() {
         ArcticMod.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
     }
-
 }

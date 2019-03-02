@@ -2,7 +2,7 @@ package com.bpteam.arcticmod.util.handlers;
 
 import com.bpteam.arcticmod.ArcticMod;
 import com.bpteam.arcticmod.common.entities.EntityPenguin;
-import com.bpteam.arcticmod.config.ModConfig;
+import com.bpteam.arcticmod.init.ModConfig;
 import com.google.common.collect.Lists;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.biome.Biome;

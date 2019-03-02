@@ -29,8 +29,7 @@ public class ArcticMod
     public static CreativeTabs items = new CreativeTabs("items")
     {
         @Override
-        public ItemStack getTabIconItem()
-        {
+        public ItemStack createIcon() {
             return new ItemStack(ModItems.WEAKER_ICE_BALL);
         }
     };
@@ -38,8 +37,7 @@ public class ArcticMod
     public static CreativeTabs blocks = new CreativeTabs("blocks")
     {
         @Override
-        public ItemStack getTabIconItem()
-        {
+        public ItemStack createIcon() {
             return new ItemStack(ModBlocks.RED_ICE);
         }
     };

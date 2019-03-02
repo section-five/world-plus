@@ -26,6 +26,7 @@ tile.snowy_bricks.name=Snowy Bricks
 tile.mossy_snowy_bricks.name=Mossy Snowy Bricks
 tile.frozen_lamp.name=Frozen Lantern
 tile.snowy_sand.name=Snowy Sand
+tile.icy_snow.name=Icy Snow
 
 //Items
 item.stronger_ice_ball.name=Stronger Ice Ball
@@ -48,3 +49,4 @@ config.arctic.spawn.penguin.spawn_probability=Spawn Probability
 config.arctic.spawn.penguin.min_spawn=Minimum Spawn Rate
 config.arctic.spawn.penguin.spawntype=Spawn Type
 config.arctic.spawn.penguin.allowed_spawn_biomes=Allowed Spawn Biomes
+config.arctic.world.gen_snowy_plains=Generate Biome Snowy_Plains
