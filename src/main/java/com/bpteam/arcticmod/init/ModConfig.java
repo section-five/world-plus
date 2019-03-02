@@ -48,7 +48,7 @@ public class ModConfig {
 
             @Config.LangKey("config.arctic.spawn.penguin.allowed_spawn_biomes")
             @Config.Comment("Note: A list of biomes where penguins SHOULD spawn.")
-            public String[] AllowedBiomes = {"minecraft:snowy_mountains", "minecraft:snowy_tundra", "minecraft:snowy_beach", "minecraft:frozen_river", "minecraft:snowy_taiga_hills"};
+            public String[] AllowedBiomes = {"minecraft:snowy_mountains", "minecraft:snowy_tundra", "minecraft:snowy_beach", "minecraft:frozen_river", "minecraft:snowy_taiga_hills", "arctic:snowy_plains"};
         }
     }
 

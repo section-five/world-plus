@@ -14,7 +14,7 @@ public class BlockIcySnow extends BlockIce implements IHasModel {
         setTranslationKey(name);
         setRegistryName(name);
         setCreativeTab(ArcticMod.blocks);
-        setSoundType(SoundType.GLASS);
+        setSoundType(SoundType.SNOW);
 
         ModBlocks.BLOCKS.add(this);
         ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
