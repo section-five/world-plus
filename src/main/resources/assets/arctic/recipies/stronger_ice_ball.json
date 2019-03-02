@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "pattern":
+    [
+        "aa ",
+        "aa ",
+        "   "
+    ],
+    "key":
+    {
+        "a":
+        {
+            "type": "arctic:weaker_ice_ball",
+
+        },
+    },
+    "result":
+    {
+        "item": "arctic:stronger_ice_ball",
+        "count": 1,
+        "data": 0
+    }
+}
