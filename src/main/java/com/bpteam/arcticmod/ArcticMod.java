@@ -22,7 +22,7 @@ public class ArcticMod
 {
     public static final String MODID = "arctic";
     public static final String NAME = "Arctic Mod";
-    public static final String VERSION = "1.0.0";
+    public static final String VERSION = "1.1";
     public static final String DEPENDENCIES = "required-after:forge@[14.23.2.2638,)";
     public static final String UPDATEURL = "https://raw.githubusercontent.com/bpteammc/arcticmod/master/update.json";
 
