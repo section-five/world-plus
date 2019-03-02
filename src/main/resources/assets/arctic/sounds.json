@@ -18,7 +18,7 @@
     "subtitle": "sounds.penguin_ambient",
     "sounds": [
       {
-        "name": "arctic:entities/penguin_ambient_1",
+        "name": "arctic:entities/penguin_ambient",
         "stream": false
       }
     ]
