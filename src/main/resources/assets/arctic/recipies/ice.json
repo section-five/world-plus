@@ -9,13 +9,13 @@
     {
         "a":
         {
-            "type": "arctic:weaker_ice_ball"
+            "type": "arctic:stronger_ice_ball"
 
         }
     }
     "result":
     {
-        "item": "arctic:stronger_ice_ball"
+        "item": "minecraft:ice",
         "count": 1,
         "data": 0
     }

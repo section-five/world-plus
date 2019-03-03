@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shapeed",
+    "pattern":
+    [
+        "aaa",
+        "aba",
+        "aaa",
+    ],
+    "key":
+    {
+        "a":
+        {
+            "type": "minecraft:ice"
+
+        },
+        "b":
+        {
+            "type": "minecraft:dye",
+            "data": 15
+
+        }
+    },
+    "result":
+    {
+        "item": "arctic:red_ice"
+        "count": 8,
+        "data": 0
+    }
+}
