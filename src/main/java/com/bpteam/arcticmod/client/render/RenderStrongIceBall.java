@@ -1,8 +1,6 @@
 package com.bpteam.arcticmod.client.render;
 
-import com.bpteam.arcticmod.ArcticMod;
 import com.bpteam.arcticmod.common.entities.EntityStrongIceBall;
-import com.bpteam.arcticmod.common.entities.EntityWeakIceBall;
 import com.bpteam.arcticmod.init.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.BufferBuilder;
@@ -15,9 +13,9 @@ import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 
-public class RenderStrongIceBall extends Render<EntityStrongIceBall> {
+import javax.annotation.Nullable;
 
-    public static final ResourceLocation TEXTURES = new ResourceLocation(ArcticMod.MODID + ":textures/items/stronger_ice_ball.png");
+public class RenderStrongIceBall extends Render<EntityStrongIceBall> {
 
     public RenderStrongIceBall(RenderManager renderManager) {
         super(renderManager);
@@ -42,9 +40,6 @@ public class RenderStrongIceBall extends Render<EntityStrongIceBall> {
             float f1 = textureatlassprite.getMaxU();
             float f2 = textureatlassprite.getMinV();
             float f3 = textureatlassprite.getMaxV();
-            float f4 = 1.0F;
-            float f5 = 0.5F;
-            float f6 = 0.25F;
             GlStateManager.rotate(180.0F - this.renderManager.playerViewY, 0.0F, 1.0F, 0.0F);
             GlStateManager.rotate((float) (this.renderManager.options.thirdPersonView == 2 ? -1 : 1) * -this.renderManager.playerViewX, 1.0F, 0.0F, 0.0F);
 
@@ -71,14 +66,9 @@ public class RenderStrongIceBall extends Render<EntityStrongIceBall> {
         }
     }
 
-
+    @Nullable
     @Override
     protected ResourceLocation getEntityTexture(EntityStrongIceBall entity) {
-        return TEXTURES;
-    }
-
-    @Override
-    protected boolean bindEntityTexture(EntityStrongIceBall entity) {
-        return true;
+        return null;
     }
 }
