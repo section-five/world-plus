@@ -1,5 +1,6 @@
 package com.bpteam.arcticmod.util.handlers;
 
+import com.bpteam.arcticmod.init.ModBiomes;
 import com.bpteam.arcticmod.init.ModBlocks;
 import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.util.IHasModel;
@@ -40,5 +41,6 @@ public class RegistryHandler {
 
     public static void PreInit(FMLPreInitializationEvent event) {
         SoundsHandler.registerSounds();
+        ModBiomes.registerBiomes();
     }
 }

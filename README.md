@@ -33,6 +33,7 @@ For Versions we use this format: Release.Beta.Alpha/Patch As an example a releas
 
 
 * **[Asc4](https://GitHub.com/Asc4Yin)** - *Colored Ice Textures, Penguin Model*
+* **[ItzEnderYT](https://GitHub.com/ItzEnderYT0)** - *Mexican Spanish Translation*
 
 ## License
 
