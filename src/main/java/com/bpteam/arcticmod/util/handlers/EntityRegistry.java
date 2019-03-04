@@ -2,6 +2,7 @@ package com.bpteam.arcticmod.util.handlers;
 
 import com.bpteam.arcticmod.ArcticMod;
 import com.bpteam.arcticmod.common.entities.EntityPenguin;
+import com.bpteam.arcticmod.common.entities.EntitySeal;
 import com.bpteam.arcticmod.common.entities.EntityStrongIceBall;
 import com.bpteam.arcticmod.common.entities.EntityWeakIceBall;
 import com.bpteam.arcticmod.init.ModConfig;
@@ -28,7 +29,7 @@ public class EntityRegistry {
     @SubscribeEvent
     public static void addEntities(RegistryEvent.Register<EntityEntry> e) {
         IForgeRegistry<EntityEntry> reg = e.getRegistry();
-        reg.registerAll(EntityEntries.PENGUIN, EntityEntries.WEAK_ICEBALL, EntityEntries.STRONG_ICEBALL);
+        reg.registerAll(EntityEntries.PENGUIN, EntityEntries.SEAL, EntityEntries.WEAK_ICEBALL, EntityEntries.STRONG_ICEBALL);
         setUpSpawns();
     }
 
@@ -36,6 +37,7 @@ public class EntityRegistry {
     @GameRegistry.ObjectHolder(ArcticMod.MODID)
     public static class EntityEntries {
         public static final EntityEntry PENGUIN = EntityEntryBuilder.create().entity(EntityPenguin.class).id(new ResourceLocation(ArcticMod.MODID, "penguin"), 0).name("penguin").tracker(80, 3, true).egg(255255255, 000000).build();
+        public static final EntityEntry SEAL = EntityEntryBuilder.create().entity(EntitySeal.class).id(new ResourceLocation(ArcticMod.MODID, "seal"), 0).name("penguin").tracker(80, 3, true).egg(255255255, 000000).build();
         public static final EntityEntry WEAK_ICEBALL = EntityEntryBuilder.create().entity(EntityWeakIceBall.class).id(new ResourceLocation(ArcticMod.MODID, "weakiceball"), 1).name("weakiceball").tracker(80, 3, true).build();
         public static final EntityEntry STRONG_ICEBALL = EntityEntryBuilder.create().entity(EntityStrongIceBall.class).id(new ResourceLocation(ArcticMod.MODID, "strongiceball"), 2).name("strongiceball").tracker(80, 3, true).build();
         // .spawn(ModConfig.spawn.penguin.spawnType, ModConfig.spawn.penguin.spawnProbability, ModConfig.spawn.penguin.minimumSpawn,ModConfig.spawn.penguin.maximumSpawn, Biome.getBiome(13))
