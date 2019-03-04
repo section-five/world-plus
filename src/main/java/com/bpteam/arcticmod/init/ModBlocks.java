@@ -1,9 +1,6 @@
 package com.bpteam.arcticmod.init;
 
-import com.bpteam.arcticmod.common.blocks.BlockBase;
-import com.bpteam.arcticmod.common.blocks.BlockFrozenLantern;
-import com.bpteam.arcticmod.common.blocks.BlockIceBase;
-import com.bpteam.arcticmod.common.blocks.BlockIcySnow;
+import com.bpteam.arcticmod.common.blocks.*;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
@@ -30,6 +27,9 @@ public class ModBlocks {
     public static final Block GREEN_ICE = new BlockIceBase("green_ice");
     public static final Block BLACK_ICE = new BlockIceBase("black_ice");
     public static final Block ICY_SNOW = new BlockIcySnow("icy_snow");
+    public static final Block ICE_ICLE_SMALL = new BlockIceIcleSmall("icicle_small");
+    public static final Block ICE_ICLE_BIG = new BlockIceIcleBig("icicle_big");
+    public static final Block ICE_ICLE_THIN = new BlockIceIcleSmall("icicle_thin");
 
     //Blocks
     public static final Block FROZEN_LAMP = new BlockFrozenLantern("frozen_lamp", Material.REDSTONE_LIGHT);
