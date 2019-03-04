@@ -68,22 +68,22 @@ public class EntitySeal extends EntityCow {
 
     @Override
     protected ResourceLocation getLootTable() {
-        return LootTableHandler.PENGUIN;
+       return null;
     }
 
     @Override
     protected SoundEvent getAmbientSound() {
-        return SoundsHandler.PENGUIN_AMBIENT;
+        return null;
     }
 
     @Override
     protected SoundEvent getHurtSound(DamageSource source) {
-        return SoundsHandler.PENGUIN_HURT;
+        return null;
     }
 
     @Override
     protected SoundEvent getDeathSound() {
-        return SoundsHandler.PENGUIN_DEATH;
+        return null;
     }
 
     @Override
