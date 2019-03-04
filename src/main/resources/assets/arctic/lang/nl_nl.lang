@@ -39,6 +39,7 @@ sounds.penguin_death=Pinguïn Dood
 
 //Entity
 entity.penguin.name=Pinguïn
+entity.seal.name=Zeehond
 
 //Config
 category.arctic.spawn=Spawn
