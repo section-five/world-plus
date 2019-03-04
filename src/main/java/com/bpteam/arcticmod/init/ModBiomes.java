@@ -1,6 +1,6 @@
 package com.bpteam.arcticmod.init;
 
-import com.bpteam.arcticmod.world.biomes.BiomeSnowyPlains;
+import com.bpteam.arcticmod.common.world.biomes.BiomeSnowyPlains;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.BiomeDictionary;
 import net.minecraftforge.common.BiomeDictionary.Type;

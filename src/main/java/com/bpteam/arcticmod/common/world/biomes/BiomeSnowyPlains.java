@@ -1,7 +1,7 @@
-package com.bpteam.arcticmod.world.biomes;
+package com.bpteam.arcticmod.common.world.biomes;
 
 import com.bpteam.arcticmod.init.ModBlocks;
-import com.bpteam.arcticmod.world.IBiomeDecorator;
+import com.bpteam.arcticmod.common.world.IBiomeDecorator;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;

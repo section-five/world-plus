@@ -1,4 +1,4 @@
-package com.bpteam.arcticmod.world;
+package com.bpteam.arcticmod.common.world;
 
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;

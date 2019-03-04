@@ -10,6 +10,9 @@ import net.minecraft.entity.passive.EntityCow;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
 import net.minecraft.init.SoundEvents;
+import net.minecraft.network.datasync.DataParameter;
+import net.minecraft.network.datasync.DataSerializers;
+import net.minecraft.network.datasync.EntityDataManager;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
@@ -20,6 +23,8 @@ public class EntityPenguin extends EntityCow {
     public EntityPenguin(World world) {
         super(world);
     }
+
+    private static final DataParameter<Integer> TYPE = EntityDataManager.createKey(EntityPenguin.class, DataSerializers.VARINT);
 
     @Override
     protected void initEntityAI() {
@@ -89,5 +94,13 @@ public class EntityPenguin extends EntityCow {
     @Override
     protected void playStepSound(BlockPos pos, Block blockIn) {
         this.playSound(SoundEvents.BLOCK_SNOW_STEP, 1, 1);
+    }
+
+    public int getType() {
+        return getDataManager().get(TYPE);
+    }
+
+    public void setType(int angelType) {
+        getDataManager().set(TYPE, angelType);
     }
 }
