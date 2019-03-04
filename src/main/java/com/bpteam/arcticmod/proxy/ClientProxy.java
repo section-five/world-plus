@@ -1,9 +1,11 @@
 package com.bpteam.arcticmod.proxy;
 
 import com.bpteam.arcticmod.client.render.RenderPenguin;
+import com.bpteam.arcticmod.client.render.RenderSeal;
 import com.bpteam.arcticmod.client.render.RenderStrongIceBall;
 import com.bpteam.arcticmod.client.render.RenderWeakIceBall;
 import com.bpteam.arcticmod.common.entities.EntityPenguin;
+import com.bpteam.arcticmod.common.entities.EntitySeal;
 import com.bpteam.arcticmod.common.entities.EntityStrongIceBall;
 import com.bpteam.arcticmod.common.entities.EntityWeakIceBall;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -39,5 +41,6 @@ public class ClientProxy extends CommonProxy {
         RenderingRegistry.registerEntityRenderingHandler(EntityPenguin.class, RenderPenguin::new);
         RenderingRegistry.registerEntityRenderingHandler(EntityWeakIceBall.class, RenderWeakIceBall::new);
         RenderingRegistry.registerEntityRenderingHandler(EntityStrongIceBall.class, RenderStrongIceBall::new);
+        RenderingRegistry.registerEntityRenderingHandler(EntitySeal.class, RenderSeal::new);
     }
 }

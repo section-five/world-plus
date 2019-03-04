@@ -2,6 +2,7 @@ package com.bpteam.arcticmod.client.render;
 
 import com.bpteam.arcticmod.ArcticMod;
 import com.bpteam.arcticmod.client.models.ModelPenguin;
+import com.bpteam.arcticmod.client.models.ModelSeal;
 import com.bpteam.arcticmod.common.entities.EntityPenguin;
 import com.bpteam.arcticmod.common.entities.EntitySeal;
 import net.minecraft.client.renderer.entity.RenderLiving;
@@ -14,7 +15,7 @@ public class RenderSeal extends RenderLiving<EntitySeal>
 
     public RenderSeal(RenderManager manager)
     {
-        super(manager, new ModelPenguin(), 0.5F);
+        super(manager, new ModelSeal(), 0.5F);
     }
 
     @Override

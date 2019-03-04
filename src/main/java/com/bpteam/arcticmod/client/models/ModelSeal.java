@@ -79,9 +79,8 @@ public class ModelSeal extends ModelBase {
         tail.render(f5);
         arms.render(f5);
     }
+
     public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {
-        modelRenderer.rotateAngleX = x;
-        modelRenderer.rotateAngleY = y;
-        modelRenderer.rotateAngleZ = z;
+
     }
 }

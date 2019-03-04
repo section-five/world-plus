@@ -63,7 +63,7 @@ public class EntitySeal extends EntityCow {
 
     @Override
     public EntityCow createChild(EntityAgeable ageable) {
-        return new EntityPenguin(this.world);
+        return new EntitySeal(this.world);
     }
 
     @Override

@@ -37,9 +37,9 @@ public class EntityRegistry {
     @GameRegistry.ObjectHolder(ArcticMod.MODID)
     public static class EntityEntries {
         public static final EntityEntry PENGUIN = EntityEntryBuilder.create().entity(EntityPenguin.class).id(new ResourceLocation(ArcticMod.MODID, "penguin"), 0).name("penguin").tracker(80, 3, true).egg(255255255, 000000).build();
-        public static final EntityEntry SEAL = EntityEntryBuilder.create().entity(EntitySeal.class).id(new ResourceLocation(ArcticMod.MODID, "seal"), 0).name("penguin").tracker(80, 3, true).egg(255255255, 000000).build();
         public static final EntityEntry WEAK_ICEBALL = EntityEntryBuilder.create().entity(EntityWeakIceBall.class).id(new ResourceLocation(ArcticMod.MODID, "weakiceball"), 1).name("weakiceball").tracker(80, 3, true).build();
         public static final EntityEntry STRONG_ICEBALL = EntityEntryBuilder.create().entity(EntityStrongIceBall.class).id(new ResourceLocation(ArcticMod.MODID, "strongiceball"), 2).name("strongiceball").tracker(80, 3, true).build();
+        public static final EntityEntry SEAL = EntityEntryBuilder.create().entity(EntitySeal.class).id(new ResourceLocation(ArcticMod.MODID, "seal"), 3).name("seal").tracker(80, 3, true).egg(255255255, 000000).build();
         // .spawn(ModConfig.spawn.penguin.spawnType, ModConfig.spawn.penguin.spawnProbability, ModConfig.spawn.penguin.minimumSpawn,ModConfig.spawn.penguin.maximumSpawn, Biome.getBiome(13))
 
     }
