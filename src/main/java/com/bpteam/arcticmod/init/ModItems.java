@@ -1,8 +1,6 @@
 package com.bpteam.arcticmod.init;
 
-import com.bpteam.arcticmod.common.items.ItemBase;
-import com.bpteam.arcticmod.common.items.ItemStrongIceBall;
-import com.bpteam.arcticmod.common.items.ItemWeakIceBall;
+import com.bpteam.arcticmod.common.items.*;
 import net.minecraft.item.Item;
 
 import java.util.ArrayList;
@@ -14,4 +12,6 @@ public class ModItems {
     public static final Item WEAKER_ICE_BALL = new ItemWeakIceBall("weaker_ice_ball");
     public static final Item STRONGER_ICE_BALL = new ItemStrongIceBall("stronger_ice_ball");
     public static final Item HAMMER = new ItemBase("hammer");
+    public static final Item RAW_POLAR_BEAR = new FoodBase("raw_polar_bear", "2", "2", "true");
+    public static final Item COOKED_POLAR_BEAR = new FoodBase("cooked_polar_bear", "4", "3.5f", "true");
 }
