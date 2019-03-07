@@ -32,6 +32,14 @@ item.stronger_ice_ball.name=Stronger Ice Ball
 item.weaker_ice_ball.name=Weaker Ice Ball
 item.hammer.name=Hammer
 
+//Foods
+item.raw_polar_bear.name=Raw Polar Bear
+item.cooked_polar_bear.name= Cooked Polar Bear
+item.raw_penguin.name=Raw Penguin
+item.cooked_penguin=Cooked Penguin
+item.raw_seal.name=Raw Seal
+item.cooked_seal.name=Cooked Seal
+
 //Sounds
 sounds.penguin_hurt=Penguin Hurt
 sounds.penguin_ambient=Penguin
