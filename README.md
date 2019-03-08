@@ -1,6 +1,6 @@
-# Arctic Mod ![](https://img.shields.io/badge/Creator-UKMinecrafted-orange.svg) ![](https://img.shields.io/badge/Minecraft-1.12.2-blue.svg) ![](https://img.shields.io/badge/Owner-BPTeam-blue.svg) ![](https://img.shields.io/badge/Mod%20Status-Released-lightgreen.svg)
+# Arctic Plus ![](https://img.shields.io/badge/Creator-UKMinecrafted-orange.svg) ![](https://img.shields.io/badge/Minecraft-1.12.2-blue.svg) ![](https://img.shields.io/badge/Owner-BPTeam-blue.svg) ![](https://img.shields.io/badge/Mod%20Status-Released-lightgreen.svg)
 
-The Arctic Mod adds things that you would find in the arctic.
+The Arctic Plus Mod adds things that you would find in the arctic.
 
 ## Getting Started
 
