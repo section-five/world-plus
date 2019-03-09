@@ -1,4 +1,4 @@
-# Arctic Plus 1.13 Port ![](https://img.shields.io/badge/Creator-UKMinecrafted-orange.svg) ![](https://img.shields.io/badge/Minecraft-1.13.2-blue.svg) ![](https://img.shields.io/badge/Owner-BPTeam-blue.svg) ![](https://img.shields.io/badge/Mod%20Status-Incomplete-red.svg) ***1.13 Port Status*** ![](https://img.shields.io/badge/1.13-0%-red.svg)
+# Arctic Plus 1.13 Port ![](https://img.shields.io/badge/Creator-UKMinecrafted-orange.svg) ![](https://img.shields.io/badge/Minecraft-1.13.2-blue.svg) ![](https://img.shields.io/badge/Owner-BPTeam-blue.svg) ![](https://img.shields.io/badge/Mod%20Status-Incomplete-red.svg) ![](https://img.shields.io/badge/1.13-0%-red.svg)
 
 The Arctic Plus Mod adds things that you would find in the arctic.
 
