@@ -1,6 +1,6 @@
 package com.bpteam.arcticmod.common.blocks;
 
-import com.bpteam.arcticmod.ArcticMod;
+import com.bpteam.arcticmod.ArcticPlus;
 import com.bpteam.arcticmod.init.ModBlocks;
 import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.util.IHasModel;
@@ -14,14 +14,14 @@ public class BlockBase extends Block implements IHasModel {
         super(material);
         setTranslationKey(name);
         setRegistryName(name);
-        setCreativeTab(ArcticMod.blocks);
+        setCreativeTab(ArcticPlus.blocks);
         ModBlocks.BLOCKS.add(this);
         ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }
 
     @Override
     public void registerModels() {
-        ArcticMod.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
+        ArcticPlus.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
     }
 
 }

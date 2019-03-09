@@ -1,6 +1,6 @@
 package com.bpteam.arcticmod.util.handlers;
 
-import com.bpteam.arcticmod.ArcticMod;
+import com.bpteam.arcticmod.ArcticPlus;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
@@ -16,7 +16,7 @@ public class SoundsHandler {
     }
 
     private static SoundEvent registerSound(String name) {
-        ResourceLocation location = new ResourceLocation(ArcticMod.MODID, name);
+        ResourceLocation location = new ResourceLocation(ArcticPlus.MODID, name);
         SoundEvent event = new SoundEvent(location);
         event.setRegistryName(name);
         ForgeRegistries.SOUND_EVENTS.register(event);

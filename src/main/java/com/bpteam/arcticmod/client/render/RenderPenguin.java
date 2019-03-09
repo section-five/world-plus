@@ -1,6 +1,6 @@
 package com.bpteam.arcticmod.client.render;
 
-import com.bpteam.arcticmod.ArcticMod;
+import com.bpteam.arcticmod.ArcticPlus;
 import com.bpteam.arcticmod.client.models.ModelPenguin;
 import com.bpteam.arcticmod.common.entities.EntityPenguin;
 import net.minecraft.client.renderer.entity.RenderLiving;
@@ -9,7 +9,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class RenderPenguin extends RenderLiving<EntityPenguin>
 {
-    public static final ResourceLocation TEXTURES = new ResourceLocation(ArcticMod.MODID + ":textures/entity/penguin.png");
+    public static final ResourceLocation TEXTURES = new ResourceLocation(ArcticPlus.MODID + ":textures/entity/penguin.png");
 
     public RenderPenguin(RenderManager manager)
     {
