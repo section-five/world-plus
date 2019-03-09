@@ -32,5 +32,15 @@
         "stream": false
       }
     ]
+  },
+  "seal_ambient": {
+    "category": "master",
+    "subtitle": "sounds.seal_ambient",
+    "sounds": [
+      {
+        "name": "arctic:entities/seal_ambient",
+        "stream": false
+      }
+    ]
   }
 }

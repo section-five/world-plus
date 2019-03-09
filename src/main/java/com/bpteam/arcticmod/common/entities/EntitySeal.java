@@ -73,7 +73,7 @@ public class EntitySeal extends EntityCow {
 
     @Override
     protected SoundEvent getAmbientSound() {
-        return null;
+        return SoundsHandler.SEAL_AMBIENT;
     }
 
     @Override
