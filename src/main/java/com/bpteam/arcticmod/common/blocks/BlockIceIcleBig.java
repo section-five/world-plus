@@ -1,6 +1,6 @@
 package com.bpteam.arcticmod.common.blocks;
 
-import com.bpteam.arcticmod.ArcticMod;
+import com.bpteam.arcticmod.ArcticPlus;
 import com.bpteam.arcticmod.init.ModBlocks;
 import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.util.IHasModel;
@@ -14,7 +14,7 @@ public class BlockIceIcleBig extends BlockIce implements IHasModel {
     public BlockIceIcleBig(String name) {
         setTranslationKey(name);
         setRegistryName(name);
-        setCreativeTab(ArcticMod.blocks);
+        setCreativeTab(ArcticPlus.blocks);
         setSoundType(SoundType.SNOW);
 
         ModBlocks.BLOCKS.add(this);
@@ -23,6 +23,6 @@ public class BlockIceIcleBig extends BlockIce implements IHasModel {
 
     @Override
     public void registerModels() {
-        ArcticMod.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
+        ArcticPlus.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
     }
 }

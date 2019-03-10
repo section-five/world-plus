@@ -13,8 +13,8 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = ArcticMod.MODID, name = ArcticMod.NAME, version = ArcticMod.VERSION,dependencies = ArcticMod.DEPENDENCIES, updateJSON = ArcticMod.UPDATEURL)
-public class ArcticMod
+@Mod(modid = ArcticPlus.MODID, name = ArcticPlus.NAME, version = ArcticPlus.VERSION,dependencies = ArcticPlus.DEPENDENCIES, updateJSON = ArcticPlus.UPDATEURL)
+public class ArcticPlus
 {
     public static final String MODID = "arctic";
     public static final String NAME = "Arctic Mod";

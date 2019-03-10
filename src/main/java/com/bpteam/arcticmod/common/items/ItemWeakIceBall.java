@@ -1,6 +1,6 @@
 package com.bpteam.arcticmod.common.items;
 
-import com.bpteam.arcticmod.ArcticMod;
+import com.bpteam.arcticmod.ArcticPlus;
 import com.bpteam.arcticmod.common.entities.EntityWeakIceBall;
 import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.util.IHasModel;
@@ -17,7 +17,7 @@ public class ItemWeakIceBall extends Item implements IHasModel {
         setTranslationKey(name);
         setRegistryName(name);
         setMaxStackSize(16);
-        setCreativeTab(ArcticMod.items);
+        setCreativeTab(ArcticPlus.items);
 
         ModItems.ITEMS.add(this);
     }
@@ -41,7 +41,7 @@ public class ItemWeakIceBall extends Item implements IHasModel {
 
     @Override
     public void registerModels() {
-        ArcticMod.proxy.registerItemRenderer(this, 0, "inventory");
+        ArcticPlus.proxy.registerItemRenderer(this, 0, "inventory");
     }
 }
 

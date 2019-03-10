@@ -1,6 +1,6 @@
 package com.bpteam.arcticmod.common.blocks;
 
-import com.bpteam.arcticmod.ArcticMod;
+import com.bpteam.arcticmod.ArcticPlus;
 import com.bpteam.arcticmod.init.ModBlocks;
 import com.bpteam.arcticmod.init.ModItems;
 import com.bpteam.arcticmod.util.IHasModel;
@@ -15,7 +15,7 @@ public class BlockFrozenLantern extends Block implements IHasModel {
         setTranslationKey(name);
         setRegistryName(name);
         setLightLevel(1.0F);
-        setCreativeTab(ArcticMod.blocks);
+        setCreativeTab(ArcticPlus.blocks);
         slipperiness = 0.98F;
 
         ModBlocks.BLOCKS.add(this);
@@ -24,7 +24,7 @@ public class BlockFrozenLantern extends Block implements IHasModel {
 
     @Override
     public void registerModels() {
-        ArcticMod.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
+        ArcticPlus.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
     }
 
 }

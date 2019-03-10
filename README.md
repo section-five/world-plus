@@ -1,4 +1,5 @@
-# Arctic Plus ![](https://img.shields.io/badge/Creator-UKMinecrafted-orange.svg) ![](https://img.shields.io/badge/Minecraft-1.12.2-blue.svg) ![](https://img.shields.io/badge/Owner-BPTeam-blue.svg) ![](https://img.shields.io/badge/Mod%20Status-Released-lightgreen.svg)
+# Arctic Plus ![](https://img.shields.io/badge/Creator-UKMinecrafted-orange.svg) ![](https://img.shields.io/badge/Minecraft-1.12.2-blue.svg) ![](https://img.shields.io/badge/Owner-BPTeam-blue.svg) ![](https://img.shields.io/badge/Mod%20Status-Complete-green.svg)
+
 
 The Arctic Plus Mod adds things that you would find in the arctic.
 
@@ -11,9 +12,9 @@ If you need more help join out [Discord](https://discord.gg/R6GQ4PU)
 The Latest Version of [Minecraft  Forge 1.12.2](https://www.minecraftforge.net)
 
 ### Installing
-***MOD IS NOW AVAILABLE***
+***1.13 Port Status*** ![](https://img.shields.io/badge/Port%20Status-0%25-red.svg)
 
-Download the Mod from the source [Here](https://minecraft.curseforge.com/projects/arctic-plus)
+Download the 1.12.2 version of the Mod from the source [Here](https://minecraft.curseforge.com/projects/arctic-plus)
 
 Move the mod into the mod folder in your .minecraft folder
 

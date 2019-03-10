@@ -1,9 +1,7 @@
 package com.bpteam.arcticmod.client.render;
 
-import com.bpteam.arcticmod.ArcticMod;
-import com.bpteam.arcticmod.client.models.ModelPenguin;
+import com.bpteam.arcticmod.ArcticPlus;
 import com.bpteam.arcticmod.client.models.ModelSeal;
-import com.bpteam.arcticmod.common.entities.EntityPenguin;
 import com.bpteam.arcticmod.common.entities.EntitySeal;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.renderer.entity.RenderManager;
@@ -11,7 +9,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class RenderSeal extends RenderLiving<EntitySeal>
 {
-    public static final ResourceLocation TEXTURES = new ResourceLocation(ArcticMod.MODID + ":textures/entity/seal.png");
+    public static final ResourceLocation TEXTURES = new ResourceLocation(ArcticPlus.MODID + ":textures/entity/seal.png");
 
     public RenderSeal(RenderManager manager)
     {

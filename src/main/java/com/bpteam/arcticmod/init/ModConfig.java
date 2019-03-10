@@ -1,6 +1,6 @@
 package com.bpteam.arcticmod.init;
 
-import com.bpteam.arcticmod.ArcticMod;
+import com.bpteam.arcticmod.ArcticPlus;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.config.ConfigManager;
@@ -8,7 +8,7 @@ import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Config(modid = ArcticMod.MODID, name = "Arctic Mod")
+@Config(modid = ArcticPlus.MODID, name = "Arctic Mod")
 public class ModConfig {
 
     @Config.LangKey("category.arctic.spawn")
@@ -56,8 +56,8 @@ public class ModConfig {
     public static class EventHandler {
         @SubscribeEvent
         public static void onConfigChanged(ConfigChangedEvent.OnConfigChangedEvent event) {
-            if (event.getModID().equals(ArcticMod.MODID)) {
-                ConfigManager.sync(ArcticMod.MODID, Config.Type.INSTANCE);
+            if (event.getModID().equals(ArcticPlus.MODID)) {
+                ConfigManager.sync(ArcticPlus.MODID, Config.Type.INSTANCE);
             }
         }
     }
