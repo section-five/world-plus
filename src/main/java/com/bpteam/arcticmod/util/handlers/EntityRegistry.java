@@ -1,10 +1,7 @@
 package com.bpteam.arcticmod.util.handlers;
 
 import com.bpteam.arcticmod.ArcticPlus;
-import com.bpteam.arcticmod.common.entities.EntityPenguin;
-import com.bpteam.arcticmod.common.entities.EntitySeal;
-import com.bpteam.arcticmod.common.entities.EntityStrongIceBall;
-import com.bpteam.arcticmod.common.entities.EntityWeakIceBall;
+import com.bpteam.arcticmod.common.entities.*;
 import com.bpteam.arcticmod.init.ModConfig;
 import com.google.common.collect.Lists;
 import net.minecraft.util.ResourceLocation;
@@ -29,7 +26,7 @@ public class EntityRegistry {
     @SubscribeEvent
     public static void addEntities(RegistryEvent.Register<EntityEntry> e) {
         IForgeRegistry<EntityEntry> reg = e.getRegistry();
-        reg.registerAll(EntityEntries.PENGUIN, EntityEntries.SEAL, EntityEntries.WEAK_ICEBALL, EntityEntries.STRONG_ICEBALL);
+        reg.registerAll(EntityEntries.PENGUIN, EntityEntries.SEAL, EntityEntries.WEAK_ICEBALL, EntityEntries.STRONG_ICEBALL, EntityEntries.WALRUS);
         setUpSpawns();
     }
 
@@ -40,8 +37,8 @@ public class EntityRegistry {
         public static final EntityEntry WEAK_ICEBALL = EntityEntryBuilder.create().entity(EntityWeakIceBall.class).id(new ResourceLocation(ArcticPlus.MODID, "weakiceball"), 1).name("weakiceball").tracker(80, 3, true).build();
         public static final EntityEntry STRONG_ICEBALL = EntityEntryBuilder.create().entity(EntityStrongIceBall.class).id(new ResourceLocation(ArcticPlus.MODID, "strongiceball"), 2).name("strongiceball").tracker(80, 3, true).build();
         public static final EntityEntry SEAL = EntityEntryBuilder.create().entity(EntitySeal.class).id(new ResourceLocation(ArcticPlus.MODID, "seal"), 3).name("seal").tracker(80, 3, true).egg(255255255, 000000).build();
+        public static final EntityEntry WALRUS = EntityEntryBuilder.create().entity(EntityWalrus.class).id(new ResourceLocation(ArcticPlus.MODID, "walrus"), 4).name("walrus").tracker(80, 3, true).egg(255255255, 000000).build();
         // .spawn(ModConfig.spawn.penguin.spawnType, ModConfig.spawn.penguin.spawnProbability, ModConfig.spawn.penguin.minimumSpawn,ModConfig.spawn.penguin.maximumSpawn, Biome.getBiome(13))
-
     }
 
     // Works but VERY slow

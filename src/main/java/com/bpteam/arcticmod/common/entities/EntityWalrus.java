@@ -1,6 +1,5 @@
 package com.bpteam.arcticmod.common.entities;
 
-import com.bpteam.arcticmod.util.handlers.LootTableHandler;
 import com.bpteam.arcticmod.util.handlers.SoundsHandler;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityAgeable;
@@ -16,8 +15,8 @@ import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class EntitySeal extends EntityCow {
-    public EntitySeal(World world) {
+public class EntityWalrus extends EntityCow {
+    public EntityWalrus(World world) {
         super(world);
     }
 
@@ -63,7 +62,7 @@ public class EntitySeal extends EntityCow {
 
     @Override
     public EntityCow createChild(EntityAgeable ageable) {
-        return new EntitySeal(this.world);
+        return new EntityWalrus(this.world);
     }
 
     @Override
@@ -73,7 +72,7 @@ public class EntitySeal extends EntityCow {
 
     @Override
     protected SoundEvent getAmbientSound() {
-        return SoundsHandler.SEAL_AMBIENT;
+        return null;
     }
 
     @Override
