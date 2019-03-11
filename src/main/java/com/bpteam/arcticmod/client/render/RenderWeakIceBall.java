@@ -1,5 +1,6 @@
 package com.bpteam.arcticmod.client.render;
 
+import com.bpteam.arcticmod.ArcticPlus;
 import com.bpteam.arcticmod.common.entities.EntityWeakIceBall;
 import com.bpteam.arcticmod.init.ModItems;
 import net.minecraft.client.Minecraft;
@@ -15,12 +16,16 @@ import net.minecraft.util.ResourceLocation;
 
 public class RenderWeakIceBall extends Render<EntityWeakIceBall> {
 
+    public static final ResourceLocation TEXTURES = new ResourceLocation(ArcticPlus.MODID + ":textures/items/weaker_ice_ball.png");
+
     public RenderWeakIceBall(RenderManager renderManager) {
         super(renderManager);
     }
 
     @Override
-    public void doRenderShadowAndFire(Entity entityIn, double x, double y, double z, float yaw, float partialTicks) {}
+    public void doRenderShadowAndFire(Entity entityIn, double x, double y, double z, float yaw, float partialTicks) {
+
+    }
 
     @Override
     public void doRender(EntityWeakIceBall entity, double x, double y, double z, float entityYaw, float partialTicks) {
@@ -36,6 +41,9 @@ public class RenderWeakIceBall extends Render<EntityWeakIceBall> {
             float f1 = textureatlassprite.getMaxU();
             float f2 = textureatlassprite.getMinV();
             float f3 = textureatlassprite.getMaxV();
+            float f4 = 1.0F;
+            float f5 = 0.5F;
+            float f6 = 0.25F;
             GlStateManager.rotate(180.0F - this.renderManager.playerViewY, 0.0F, 1.0F, 0.0F);
             GlStateManager.rotate((float) (this.renderManager.options.thirdPersonView == 2 ? -1 : 1) * -this.renderManager.playerViewX, 1.0F, 0.0F, 0.0F);
 
@@ -62,8 +70,14 @@ public class RenderWeakIceBall extends Render<EntityWeakIceBall> {
         }
     }
 
+
     @Override
     protected ResourceLocation getEntityTexture(EntityWeakIceBall entity) {
-        return null;
+        return TEXTURES;
+    }
+
+    @Override
+    protected boolean bindEntityTexture(EntityWeakIceBall entity) {
+        return true;
     }
 }
