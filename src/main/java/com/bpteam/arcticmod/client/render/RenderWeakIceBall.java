@@ -13,7 +13,10 @@ import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
+@SideOnly(Side.CLIENT)
 public class RenderWeakIceBall extends Render<EntityWeakIceBall> {
 
     public static final ResourceLocation TEXTURES = new ResourceLocation(ArcticPlus.MODID + ":textures/items/weaker_ice_ball.png");
@@ -34,6 +37,7 @@ public class RenderWeakIceBall extends Render<EntityWeakIceBall> {
             this.bindEntityTexture(entity);
             GlStateManager.translate((float) x, (float) y, (float) z);
             GlStateManager.enableRescaleNormal();
+            GlStateManager.scale(1, 1, 1);
             TextureAtlasSprite textureatlassprite = Minecraft.getMinecraft().getRenderItem().getItemModelMesher().getParticleIcon(ModItems.WEAKER_ICE_BALL);
             Tessellator tessellator = Tessellator.getInstance();
             BufferBuilder bufferbuilder = tessellator.getBuffer();
@@ -41,9 +45,6 @@ public class RenderWeakIceBall extends Render<EntityWeakIceBall> {
             float f1 = textureatlassprite.getMaxU();
             float f2 = textureatlassprite.getMinV();
             float f3 = textureatlassprite.getMaxV();
-            float f4 = 1.0F;
-            float f5 = 0.5F;
-            float f6 = 0.25F;
             GlStateManager.rotate(180.0F - this.renderManager.playerViewY, 0.0F, 1.0F, 0.0F);
             GlStateManager.rotate((float) (this.renderManager.options.thirdPersonView == 2 ? -1 : 1) * -this.renderManager.playerViewX, 1.0F, 0.0F, 0.0F);
 

@@ -13,7 +13,10 @@ import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
+@SideOnly(Side.CLIENT)
 public class RenderStrongIceBall extends Render<EntityStrongIceBall> {
 
     public static final ResourceLocation TEXTURES = new ResourceLocation(ArcticPlus.MODID + ":textures/items/stronger_ice_ball.png");
