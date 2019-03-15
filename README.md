@@ -28,9 +28,9 @@ For Versions we use this format: Release.Beta.Alpha/Patch As an example a releas
 ## Authors
 
 * **[UKMinecrafted](https://GitHub.com/UKMinecrafted)** - *Mod Creator*
-* **[Josia50](https://GitHub.com/Josia50)** - *BPTeam*
-* **[Temm](https://GitHub.com/bpteammc/arcticmod)** - *BPTeam*
-* **[Max Freemen](https://GitHub.com/MaxFreemen)** - *BPTeam*
+* **[Josia50](https://GitHub.com/Josia50)** - *BPTeam, Seinor Dev*
+* **[Temm](https://GitHub.com/bpteammc/arcticmod)** - *BPTeam, Dev*
+* **[Max Freemen](https://GitHub.com/MaxFreemen)** - *BPTeam, Dev*
 
 ## Contributors
 
