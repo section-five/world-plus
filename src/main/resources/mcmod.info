@@ -1,13 +1,13 @@
 [
 {
-  "modid": "worldplus",
-  "name": "§2World §9Plus Mod",
-  "description": "§2Makes your Minecraft worlds better.",
+  "modid": "arctic",
+  "name": "§9Arctic Plus Mod",
+  "description": "§9Adds things that you would find in the arctic.",
   "version": "§51.2",
   "mcversion": "${mcversion}",
   "url": "https://discord.gg/R6GQ4PU",
   "updateUrl": "",
-  "authorList": ["§6UKMinecrafted", "§2Asc4", "§eMy Pikmin Loving Friend", "§2Josia50", "§3Tem"],
+  "authorList": ["§6UKMinecrafted", "§2Asc4", "§eMy Pikmin Loving Friend", "§2Josia50"],
   "credits": "§3BPTeam",
   "logoFile": "logo.png",
   "screenshots": [],
