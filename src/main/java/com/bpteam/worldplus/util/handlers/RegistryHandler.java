@@ -69,6 +69,5 @@ public class RegistryHandler {
         public static final EntityEntry SEAL = EntityEntryBuilder.create().entity(EntitySeal.class).id(new ResourceLocation(WorldPlus.MODID, "seal"), 3).name("seal").tracker(80, 3, true).egg(255255255, 000000).build();
         public static final EntityEntry WALRUS = EntityEntryBuilder.create().entity(EntityWalrus.class).id(new ResourceLocation(WorldPlus.MODID, "walrus"), 4).name("walrus").tracker(80, 3, true).egg(255255255, 000000).build();
         public static final EntityEntry ARCTIC_FOX = EntityEntryBuilder.create().entity(EntityArcticFox.class).id(new ResourceLocation(WorldPlus.MODID, "arctic_fox"), 5).name("arctic_fox").tracker(80, 3, true).egg(255255255, 000000).build();
-        // .spawn(ModConfig.spawn.penguin.spawnType, ModConfig.spawn.penguin.spawnProbability, ModConfig.spawn.penguin.minimumSpawn,ModConfig.spawn.penguin.maximumSpawn, Biome.getBiome(13))
     }
 }
