@@ -14,7 +14,7 @@ public class ABlockBase extends Block implements IHasModel {
         super(material);
         setTranslationKey(name);
         setRegistryName(name);
-        setCreativeTab(WorldPlus.ablocks);
+        setCreativeTab(WorldPlus.arctic);
         ModBlocks.BLOCKS.add(this);
         ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));
     }

@@ -13,7 +13,7 @@ public class ABlockIceBase extends BlockIce implements IHasModel {
     public ABlockIceBase(String name) {
         setTranslationKey(name);
         setRegistryName(name);
-        setCreativeTab(WorldPlus.ablocks);
+        setCreativeTab(WorldPlus.arctic);
         setSoundType(SoundType.GLASS);
 
         ModBlocks.BLOCKS.add(this);

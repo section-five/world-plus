@@ -13,7 +13,7 @@ public class AFoodBase extends ItemFood implements IHasModel
         super(amount, saturation, isAnimalFood);
         setTranslationKey(name);
         setRegistryName(name);
-        setCreativeTab(WorldPlus.aitems);
+        setCreativeTab(WorldPlus.arctic);
 
         ModItems.ITEMS.add(this);
     }

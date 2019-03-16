@@ -25,7 +25,7 @@ public class WorldPlus
     @SidedProxy(clientSide = Reference.CLIENTPROXY, serverSide = Reference.COMMONPROXY)
     public static CommonProxy proxy;
 
-    public static CreativeTabs aitems = new CreativeTabs("aitems")
+    public static CreativeTabs arctic = new CreativeTabs("arctic")
     {
         @Override
         public ItemStack createIcon() {
@@ -33,13 +33,22 @@ public class WorldPlus
         }
     };
 
-    public static CreativeTabs ablocks = new CreativeTabs("ablocks")
-    {
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(ModBlocks.RED_ICE);
-        }
-    };
+  //  public static CreativeTabs desert = new CreativeTabs("desert")
+  //  {
+ //       @Override
+ //       public ItemStack createIcon() {
+  //          return new ItemStack(ModItems.HAMMER);
+   //     }
+  //  };
+
+  //  public static CreativeTabs jungle = new CreativeTabs("jungle")
+   // {
+    //    @Override
+   //     public ItemStack createIcon() {
+   //         return new ItemStack(ModItems.HAMMER);
+   //     }
+   // };
+
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)

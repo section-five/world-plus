@@ -1,6 +1,5 @@
 //Creative Tabs
-itemGroup.ablocks=Arctic Mod Blokken
-itemGroup.aitems=Arctic Mod Voorwerpen
+itemGroup.arctic=Arctic Voorwerpen
 
 //Blocks
 tile.red_ice.name=Rood Ijs

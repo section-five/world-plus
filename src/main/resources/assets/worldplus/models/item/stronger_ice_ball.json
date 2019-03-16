@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "arctic:items/stronger_ice_ball"
+    "layer0": "worldplus:items/stronger_ice_ball"
   }
 }

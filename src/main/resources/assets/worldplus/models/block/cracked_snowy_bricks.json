@@ -1,6 +1,6 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"all": "arctic:blocks/cracked_snowy_bricks"
+		"all": "worldplus:blocks/cracked_snowy_bricks"
 	}
 }

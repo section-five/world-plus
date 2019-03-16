@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "arctic:items/cooked_penguin"
+    "layer0": "worldplus:items/cooked_penguin"
   }
 }
