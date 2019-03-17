@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.gameevent.TickEvent;
 
 // Common Event Handler
 @Mod.EventBusSubscriber
-public class ACEventHandler {
+public class CEventHandler {
 
     @SubscribeEvent
     public static void BreakBlock(BlockEvent.BreakEvent event) {
