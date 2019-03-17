@@ -4,11 +4,11 @@
     "subtitle": "sounds.penguin_hurt",
     "sounds": [
       {
-        "name": "arctic:entities/penguin_hurt_1",
+        "name": "worldplus:entities/penguin_hurt_1",
         "stream": false
       },
       {
-        "name": "arctic:entities/penguin_hurt_2",
+        "name": "worldplus:entities/penguin_hurt_2",
         "steam": false
       }
     ]
@@ -18,7 +18,7 @@
     "subtitle": "sounds.penguin_ambient",
     "sounds": [
       {
-        "name": "arctic:entities/penguin_ambient",
+        "name": "worldplus:entities/penguin_ambient",
         "stream": false
       }
     ]
@@ -28,7 +28,7 @@
     "subtitle": "sounds.penguin_death",
     "sounds": [
       {
-        "name": "arctic:entities/penguin_death",
+        "name": "worldplus:entities/penguin_death",
         "stream": false
       }
     ]
@@ -38,7 +38,7 @@
     "subtitle": "sounds.seal_ambient",
     "sounds": [
       {
-        "name": "arctic:entities/seal_ambient",
+        "name": "worldplus:entities/seal_ambient",
         "stream": false
       }
     ]
