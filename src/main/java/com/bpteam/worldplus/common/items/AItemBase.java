@@ -10,7 +10,7 @@ public class AItemBase extends Item implements IHasModel {
     public AItemBase(String name) {
         setTranslationKey(name);
         setRegistryName(name);
-        setCreativeTab(WorldPlus.aitems);
+        setCreativeTab(WorldPlus.arctic);
 
         ModItems.ITEMS.add(this);
     }

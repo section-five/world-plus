@@ -14,7 +14,7 @@ public class ABlockIceIcleSmall extends BlockIce implements IHasModel {
     public ABlockIceIcleSmall(String name) {
         setTranslationKey(name);
         setRegistryName(name);
-        setCreativeTab(WorldPlus.ablocks);
+        setCreativeTab(WorldPlus.arctic);
         setSoundType(SoundType.SNOW);
 
         ModBlocks.BLOCKS.add(this);

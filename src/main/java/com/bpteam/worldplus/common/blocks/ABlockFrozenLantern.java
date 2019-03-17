@@ -15,7 +15,7 @@ public class ABlockFrozenLantern extends Block implements IHasModel {
         setTranslationKey(name);
         setRegistryName(name);
         setLightLevel(1.0F);
-        setCreativeTab(WorldPlus.ablocks);
+        setCreativeTab(WorldPlus.arctic);
         slipperiness = 0.98F;
 
         ModBlocks.BLOCKS.add(this);

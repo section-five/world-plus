@@ -17,7 +17,7 @@ public class AItemStrongIceBall extends Item implements IHasModel {
         setTranslationKey(name);
         setRegistryName(name);
         setMaxStackSize(16);
-        setCreativeTab(WorldPlus.aitems);
+        setCreativeTab(WorldPlus.arctic);
 
         ModItems.ITEMS.add(this);
     }
