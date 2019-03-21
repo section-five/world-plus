@@ -39,6 +39,7 @@ item.raw_penguin.name=Raw Penguin
 item.cooked_penguin=Cooked Penguin
 item.raw_seal.name=Raw Seal
 item.cooked_seal.name=Cooked Seal
+item.berry.name=Berry
 
 //Sounds
 sounds.penguin_hurt=Penguin Hurt
