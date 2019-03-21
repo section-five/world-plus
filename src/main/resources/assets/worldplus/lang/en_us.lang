@@ -49,6 +49,7 @@ sounds.penguin_death=Penguin Death
 entity.penguin.name=Penguin
 entity.seal.name=Seal
 entity.walrus.name=Walrus
+entity.arctic_fox.name=Arctic Fox
 
 //Config
 category.arctic.spawn=Spawn
