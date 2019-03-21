@@ -20,4 +20,5 @@ public class ModItems {
     public static final Item COOKED_PENGUIN = new AFoodBase("cooked_penguin", 4, 8F, true);
     public static final Item RAW_SEAL = new AFoodBase("raw_seal", 2, 2F, true);
     public static final Item COOKED_SEAL = new AFoodBase("cooked_seal", 4, 8F, true);
+    public static final Item BERRY = new AFoodBase("berry",1,1F,false);
 }
