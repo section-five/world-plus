@@ -1,6 +1,7 @@
 package com.bpteam.worldplus.common.world;
 
 public class Worldinformation {
+// This file is of temporary state and resets upon world leave
 
     public static boolean wind_state;
     public static int wind_level;
@@ -23,11 +24,11 @@ public class Worldinformation {
     }
     
     public static void setStorm_Amount(int stormamount) {
-         storm_amount = stormamount
+         storm_amount = stormamount;
         }
     
-    public static iny getStorm_Amount() {
-        return storm_amount
+    public static int getStorm_Amount() {
+        return storm_amount;
     }
      
 }
