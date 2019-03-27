@@ -12,7 +12,7 @@ If you need more help join out [Discord](https://discord.gg/R6GQ4PU)
 The Latest Version of [Minecraft  Forge 1.12.2](https://www.minecraftforge.net)
 
 ### Installing
-***1.13 Port Status*** ![](https://img.shields.io/badge/Port%20Status-0%25-red.svg)
+***1.13 Port Status*** Not Actively Being Worked On.
 
 Download the 1.12.2 version of the Mod from the source [Here](https://minecraft.curseforge.com/projects/arctic-plus)
 
