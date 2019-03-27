@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "worldplus:stronger_ice_ball"
+        },
+        {
+            "item": "worldplus:stronger_ice_ball"
+        },
+        {
+            "item": "worldplus:stronger_ice_ball"
+        },
+        {
+            "item": "worldplus:stronger_ice_ball"
+        }
+    ],
+    "result": {
+        "item": "minecraft:ice",
+        "count": 1
+    }
+}

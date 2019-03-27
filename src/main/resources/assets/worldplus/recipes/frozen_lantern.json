@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        " I ",
+        "ISI",
+        " I "
+    ],
+
+    "key":
+    {
+        "S":
+        {
+            "item": "minecraft:redstone_lamp"
+        },
+        "I":
+        {
+            "item": "minecraft:ice"
+        }
+    },
+
+    "result":
+    {
+        "item": "worldplus:frozen_lamp",
+        "count": 1
+    }
+}

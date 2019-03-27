@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:snow"
+        },
+        {
+            "item": "minecraft:snow"
+        },
+        {
+            "item": "minecraft:snow"
+        },
+        {
+            "item": "minecraft:snow"
+        }
+    ],
+    "result": {
+        "item": "worldplus:snowy_bricks",
+        "count": 4
+    }
+}

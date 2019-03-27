@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "III",
+        "IRI",
+        "III"
+    ],
+
+    "key":
+    {
+        "R":
+        {
+            "item": "minecraft:dye",
+            "data": 2
+        },
+        "I":
+        {
+            "item": "minecraft:ice"
+        }
+    },
+
+    "result":
+    {
+        "item": "worldplus:green_ice",
+        "count": 8
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "worldplus:snowy_bricks"
+        },
+        {
+            "item": "worldplus:snowy_bricks"
+        },
+        {
+            "item": "minecraft:vine"
+        },
+        {
+            "item": "minecraft:vine"
+        }
+    ],
+    "result": {
+        "item": "worldplus:mossy_snowy_bricks",
+        "count": 4
+    }
+}
