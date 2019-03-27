@@ -16,8 +16,8 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-@SideOnly(Side.CLIENT)
 public class EntityArcticFox extends EntityCow {
+
     public EntityArcticFox(World world) {
         super(world);
     }
