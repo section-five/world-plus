@@ -39,7 +39,7 @@ sounds.penguin_death=Pinguïn Dood
 //Entity
 entity.penguin.name=Pinguïn
 entity.seal.name=Zeehond
-entity.walrus.name=
+entity.walrus.name=Walrus
 
 //Config
 category.arctic.spawn=Spawn
