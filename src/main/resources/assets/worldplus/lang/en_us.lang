@@ -57,17 +57,17 @@ entity.arctic_fox.name=Arctic Fox
 entity.snake.name=Snake
 
 //Config
-category.arctic.spawn=Spawn
+category.worldplus.spawn=Spawn
 category.worldplus.world=World
-category.arctic.spawn.penguin=Penguin
+category.worldplus.spawn.penguin=Penguin
 category.worldplus.spawn.seal=Seal
 category.worldplus.spawn.walrus=Walrus
 category.worldplus.spawn.snake=Snake
 category.worldplus.spawn.arcticfox=Arctic Fox
-config.arctic.spawn.max_spawn=Maximum Spawn Rate
-config.arctic.spawn.spawn_probability=Spawn Probability
-config.arctic.spawn.min_spawn=Minimum Spawn Rate
-config.arctic.spawn.spawntype=Spawn Type
+config.worldplus.spawn.max_spawn=Maximum Spawn Rate
+config.worldplus.spawn.spawn_probability=Spawn Probability
+config.worldplus.spawn.min_spawn=Minimum Spawn Rate
+config.worldplus.spawn.spawntype=Spawn Type
 config.worldplus.spawn.allowed_spawn_biomes_arctic=Allowed Spawn Biomes Arctic
 config.worldplus.spawn.allowed_spawn_biomes_hostile=Allowed Spawn Biomes Hostile
-config.arctic.world.gen_snowy_plains=Generate Biome Snowy_Plains
+config.worldplus.world.gen_snowy_plains=Generate Biome Snowy_Plains
