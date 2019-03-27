@@ -39,6 +39,7 @@ item.raw_penguin.name=Raw Penguin
 item.cooked_penguin=Cooked Penguin
 item.raw_seal.name=Raw Seal
 item.cooked_seal.name=Cooked Seal
+item.berry.name=Berry
 
 //Sounds
 sounds.penguin_hurt=Penguin Hurt
@@ -49,6 +50,7 @@ sounds.penguin_death=Penguin Death
 entity.penguin.name=Penguin
 entity.seal.name=Seal
 entity.walrus.name=Walrus
+entity.arctic_fox.name=Arctic Fox
 
 //Config
 category.arctic.spawn=Spawn
