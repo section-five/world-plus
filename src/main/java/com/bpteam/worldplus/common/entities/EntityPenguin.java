@@ -100,7 +100,7 @@ public class EntityPenguin extends EntityCow {
         return getDataManager().get(TYPE);
     }
 
-    public void setType(int angelType) {
-        getDataManager().set(TYPE, angelType);
+    public void setType(int penguintype) {
+        getDataManager().set(TYPE, penguintype);
     }
 }
