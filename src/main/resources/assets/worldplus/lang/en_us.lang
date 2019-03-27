@@ -51,6 +51,7 @@ entity.penguin.name=Penguin
 entity.seal.name=Seal
 entity.walrus.name=Walrus
 entity.arctic_fox.name=Arctic Fox
+entity.snake.name=Snake
 
 //Config
 category.arctic.spawn=Spawn
