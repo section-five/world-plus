@@ -2,6 +2,7 @@ package com.bpteam.worldplus;
 
 import com.bpteam.worldplus.init.ModBlocks;
 import com.bpteam.worldplus.init.ModItems;
+import com.bpteam.worldplus.init.ModRecipes;
 import com.bpteam.worldplus.proxy.CommonProxy;
 import com.bpteam.worldplus.util.Reference;
 import com.bpteam.worldplus.util.handlers.RegistryHandler;
@@ -60,5 +61,6 @@ public class WorldPlus
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
+        ModRecipes.init();
     }
 }
