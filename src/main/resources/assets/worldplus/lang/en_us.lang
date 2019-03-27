@@ -26,6 +26,9 @@ tile.mossy_snowy_bricks.name=Mossy Snowy Bricks
 tile.frozen_lamp.name=Frozen Lantern
 tile.snowy_sand.name=Snowy Sand
 tile.icy_snow.name=Icy Snow
+tile.icicle_thin.name=Thin Icicle
+tile.icicle_small.name=Small Icicle
+tile.icicle_big.name=Big Icicle
 
 //Items
 item.stronger_ice_ball.name=Stronger Ice Ball

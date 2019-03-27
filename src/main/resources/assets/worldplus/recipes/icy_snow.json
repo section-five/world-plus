@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "RIR",
+        "IRI",
+        "RIR"
+    ],
+
+    "key":
+    {
+        "R":
+        {
+            "item": "minecraft:snow"
+        },
+        "I":
+        {
+            "item": "minecraft:ice"
+        }
+    },
+
+    "result":
+    {
+        "item": "worldplus:icy_snow",
+        "count": 8
+    }
+}
