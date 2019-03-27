@@ -58,6 +58,7 @@ entity.snake.name=Snake
 
 //Config
 category.arctic.spawn=Spawn
+category.worldplus.world=World
 category.arctic.spawn.penguin=Penguin
 category.worldplus.spawn.seal=Seal
 category.worldplus.spawn.walrus=Walrus
