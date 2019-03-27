@@ -63,12 +63,12 @@ public class RegistryHandler {
     // Entities
     @GameRegistry.ObjectHolder(WorldPlus.MODID)
     public static class EntityEntries {
-        public static final EntityEntry PENGUIN = EntityEntryBuilder.create().entity(EntityPenguin.class).id(new ResourceLocation(WorldPlus.MODID, "penguin"), 0).name("penguin").tracker(80, 3, true).egg(255255255, 000000).build();
+        public static final EntityEntry PENGUIN = EntityEntryBuilder.create().entity(EntityPenguin.class).id(new ResourceLocation(WorldPlus.MODID, "penguin"), 0).name("penguin").tracker(80, 3, true).egg(16777215, 000000).build();
         public static final EntityEntry WEAK_ICEBALL = EntityEntryBuilder.create().entity(EntityWeakIceBall.class).id(new ResourceLocation(WorldPlus.MODID, "weakiceball"), 1).name("weakiceball").tracker(80, 3, true).build();
         public static final EntityEntry STRONG_ICEBALL = EntityEntryBuilder.create().entity(EntityStrongIceBall.class).id(new ResourceLocation(WorldPlus.MODID, "strongiceball"), 2).name("strongiceball").tracker(80, 3, true).build();
-        public static final EntityEntry SEAL = EntityEntryBuilder.create().entity(EntitySeal.class).id(new ResourceLocation(WorldPlus.MODID, "seal"), 3).name("seal").tracker(80, 3, true).egg(255255255, 000000).build();
-        public static final EntityEntry WALRUS = EntityEntryBuilder.create().entity(EntityWalrus.class).id(new ResourceLocation(WorldPlus.MODID, "walrus"), 4).name("walrus").tracker(80, 3, true).egg(255255255, 000000).build();
-        public static final EntityEntry ARCTIC_FOX = EntityEntryBuilder.create().entity(EntityArcticFox.class).id(new ResourceLocation(WorldPlus.MODID, "arctic_fox"), 5).name("arctic_fox").tracker(80, 3, true).egg(255255255, 000000).build();
-        public static final EntityEntry SNAKE = EntityEntryBuilder.create().entity(EntitySnake.class).id(new ResourceLocation(WorldPlus.MODID, "snake"), 6).name("snake").tracker(80, 3, true).egg(255255255, 000000).build();
+        public static final EntityEntry SEAL = EntityEntryBuilder.create().entity(EntitySeal.class).id(new ResourceLocation(WorldPlus.MODID, "seal"), 3).name("seal").tracker(80, 3, true).egg(16777215, 11184810).build();
+        public static final EntityEntry WALRUS = EntityEntryBuilder.create().entity(EntityWalrus.class).id(new ResourceLocation(WorldPlus.MODID, "walrus"), 4).name("walrus").tracker(80, 3, true).egg(7029783, 5980968).build();
+        public static final EntityEntry ARCTIC_FOX = EntityEntryBuilder.create().entity(EntityArcticFox.class).id(new ResourceLocation(WorldPlus.MODID, "arctic_fox"), 5).name("arctic_fox").tracker(80, 3, true).egg(16777215, 5636095).build();
+        public static final EntityEntry SNAKE = EntityEntryBuilder.create().entity(EntitySnake.class).id(new ResourceLocation(WorldPlus.MODID, "snake"), 6).name("snake").tracker(80, 3, true).egg(43520, 16777045).build();
     }
 }
