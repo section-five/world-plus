@@ -1,5 +1,6 @@
 package com.bpteam.worldplus.common.entities;
 
+import com.bpteam.worldplus.util.handlers.LootTableHandler;
 import com.bpteam.worldplus.util.handlers.SoundsHandler;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityAgeable;
@@ -67,7 +68,7 @@ public class EntitySeal extends EntityCow {
 
     @Override
     protected ResourceLocation getLootTable() {
-        return null;
+        return LootTableHandler.SEAL;
     }
 
     @Override
