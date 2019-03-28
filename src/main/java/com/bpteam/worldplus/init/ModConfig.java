@@ -149,12 +149,12 @@ public class ModConfig {
 
         @Config.LangKey("config.worldplus.spawn.allowed_spawn_biomes_hostile")
         @Config.Comment("Note: A list of biomes where Hostile mobs SHOULD spawn.")
-        public String[] AllowedBiomesMonster = {"minecraft:jungle"};
+        public String[] AllowedBiomesMonster = {"minecraft:jungle", "minecraft:jungle_hills_edge", "minecraft:jungle_hills_hills"};
 
 
         @Config.LangKey("config.worldplus.spawn.allowed_spawn_biomes_arctic")
         @Config.Comment("Note: A list of biomes where Arctic mobs SHOULD spawn.")
-        public String[] AllowedBiomesArctic = {"minecraft:snowy_mountains", "minecraft:snowy_tundra", "minecraft:snowy_beach", "minecraft:frozen_river", "minecraft:snowy_taiga_hills", "worldplus:snowy_plains"};
+        public String[] AllowedBiomesArctic = {"minecraft:taiga_cold_hills", "minecraft:snowy_tundra", "minecraft:cold_beach", "minecraft:frozen_river", "minecraft:taiga_cold", "worldplus:snowy_plains"};
 
     }
 
