@@ -30,6 +30,7 @@ For Versions we use this format: Release.Beta.Alpha/Patch As an example a releas
 * **[Josia50](https://GitHub.com/Josia50)** - *BPTeam, Senior Dev*
 * **[Temm](https://GitHub.com/bpteammc/arcticmod)** - *BPTeam, Dev*
 * **[Max Freemen](https://GitHub.com/MaxFreemen)** - *BPTeam, Dev*
+* **[Ben1Ben1](https://GitHub.com/Ben1Ben1)** - *BPTeam, Jr Dev*
 
 ## Contributors
 
