@@ -1,5 +1,6 @@
 //Creative Tabs
 itemGroup.arctic=Arctic Items
+itemGroup.food=World Plus Food
 
 
 //Blocks
@@ -55,6 +56,8 @@ entity.seal.name=Seal
 entity.walrus.name=Walrus
 entity.arctic_fox.name=Arctic Fox
 entity.snake.name=Snake
+entity.squirrel.name=Squirrel
+entity.worm.name=Worm
 
 //Config
 category.worldplus.spawn=Spawn

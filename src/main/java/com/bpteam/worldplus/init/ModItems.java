@@ -14,11 +14,11 @@ public class ModItems {
     public static final Item HAMMER = new AItemBase("hammer");
 
     //Foods
-    public static final Item RAW_POLAR_BEAR = new AFoodBase("raw_polar_bear", 2, 2F, true);
-    public static final Item COOKED_POLAR_BEAR = new AFoodBase("cooked_polar_bear", 4, 8F, true);
-    public static final Item RAW_PENGUIN = new AFoodBase("raw_penguin", 2, 2F, true);
-    public static final Item COOKED_PENGUIN = new AFoodBase("cooked_penguin", 4, 8F, true);
-    public static final Item RAW_SEAL = new AFoodBase("raw_seal", 2, 2F, true);
-    public static final Item COOKED_SEAL = new AFoodBase("cooked_seal", 4, 8F, true);
-    public static final Item BERRY = new AFoodBase("berry",1,1F,false);
+    public static final Item RAW_POLAR_BEAR = new FoodBase("raw_polar_bear", 2, 2F, true);
+    public static final Item COOKED_POLAR_BEAR = new FoodBase("cooked_polar_bear", 4, 8F, true);
+    public static final Item RAW_PENGUIN = new FoodBase("raw_penguin", 2, 2F, true);
+    public static final Item COOKED_PENGUIN = new FoodBase("cooked_penguin", 4, 8F, true);
+    public static final Item RAW_SEAL = new FoodBase("raw_seal", 2, 2F, true);
+    public static final Item COOKED_SEAL = new FoodBase("cooked_seal", 4, 8F, true);
+    public static final Item BERRY = new FoodBase("berry",1,1F,false);
 }

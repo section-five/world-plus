@@ -5,15 +5,15 @@ import com.bpteam.worldplus.init.ModItems;
 import com.bpteam.worldplus.util.IHasModel;
 import net.minecraft.item.ItemFood;
 
-public class AFoodBase extends ItemFood implements IHasModel
+public class FoodBase extends ItemFood implements IHasModel
 {
 
-    public AFoodBase(String name, int amount, float saturation, boolean isAnimalFood)
+    public FoodBase(String name, int amount, float saturation, boolean isAnimalFood)
     {
         super(amount, saturation, isAnimalFood);
         setTranslationKey(name);
         setRegistryName(name);
-        setCreativeTab(WorldPlus.arctic);
+        setCreativeTab(WorldPlus.food);
 
         ModItems.ITEMS.add(this);
     }
