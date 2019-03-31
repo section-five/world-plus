@@ -19,21 +19,19 @@ import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class EntityPenguin extends EntityCow {
-    public EntityPenguin(World world) {
+public class EntitySquirrel extends EntityCow {
+    public EntitySquirrel(World world) {
         super(world);
         setSize(0.4F,0.6F);
     }
 
-    private static final DataParameter<Integer> TYPE = EntityDataManager.createKey(EntityPenguin.class, DataSerializers.VARINT);
+    private static final DataParameter<Integer> TYPE = EntityDataManager.createKey(EntitySquirrel.class, DataSerializers.VARINT);
 
     @Override
     protected void initEntityAI() {
         this.tasks.addTask(0, new EntityAISwimming(this));
         this.tasks.addTask(1, new EntityAIPanic(this, 1.5D));
         this.tasks.addTask(2, new EntityAIMate(this, 1.0D));
-        this.tasks.addTask(3, new EntityAITempt(this, 1.25D, Items.FISH, false));
-        this.tasks.addTask(4, new EntityAIFollowParent(this, 1.25D));
         this.tasks.addTask(5, new EntityAIWanderAvoidWater(this, 1.0D));
         this.tasks.addTask(6, new EntityAIWatchClosest(this, EntityPlayer.class, 6.0F));
         this.tasks.addTask(7, new EntityAILookIdle(this));
@@ -69,39 +67,12 @@ public class EntityPenguin extends EntityCow {
 
     @Override
     public EntityCow createChild(EntityAgeable ageable) {
-        return new EntityPenguin(this.world);
+        return new EntitySquirrel(this.world);
     }
 
-    @Override
-    protected ResourceLocation getLootTable() {
-        return LootTableHandler.PENGUIN;
-    }
-
-    @Override
-    protected SoundEvent getAmbientSound() {
-        return SoundsHandler.PENGUIN_AMBIENT;
-    }
-
-    @Override
-    protected SoundEvent getHurtSound(DamageSource source) {
-        return SoundsHandler.PENGUIN_HURT;
-    }
-
-    @Override
-    protected SoundEvent getDeathSound() {
-        return SoundsHandler.PENGUIN_DEATH;
-    }
 
     @Override
     protected void playStepSound(BlockPos pos, Block blockIn) {
-        this.playSound(SoundEvents.BLOCK_SNOW_STEP, 1, 1);
-    }
-
-    public int getType() {
-        return getDataManager().get(TYPE);
-    }
-
-    public void setType(int penguintype) {
-        getDataManager().set(TYPE, penguintype);
+        this.playSound(SoundEvents.BLOCK_STONE_STEP, 1, 1);
     }
 }

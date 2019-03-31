@@ -14,5 +14,6 @@ public class RenderHandler {
         RenderingRegistry.registerEntityRenderingHandler(EntityWalrus.class, RenderWalrus::new);
         RenderingRegistry.registerEntityRenderingHandler(EntityArcticFox.class, RenderArcticFox::new);
         RenderingRegistry.registerEntityRenderingHandler(EntitySnake.class, RenderSnake::new);
+        RenderingRegistry.registerEntityRenderingHandler(EntitySquirrel.class, RenderSquirrel::new);
     }
 }

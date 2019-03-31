@@ -16,7 +16,7 @@ public class RenderSnake extends RenderLiving<EntitySnake>
 
     public RenderSnake(RenderManager manager)
     {
-        super(manager, new ModelSnake(), 0.5F);
+        super(manager, new ModelSnake(), 0F);
     }
 
     @Override

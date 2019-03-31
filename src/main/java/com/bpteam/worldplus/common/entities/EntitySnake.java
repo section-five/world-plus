@@ -18,6 +18,7 @@ public class EntitySnake extends EntityMob {
 
     public EntitySnake(World world) {
         super(world);
+        setSize(0.2F,0.2F);
     }
 
     private static final DataParameter<Integer> TYPE = EntityDataManager.createKey(EntitySnake.class, DataSerializers.VARINT);
@@ -27,7 +28,8 @@ public class EntitySnake extends EntityMob {
         this.tasks.addTask(0, new EntityAISwimming(this));
         this.tasks.addTask(1, new EntityAIWatchClosest(this, EntityPlayer.class, 6.0F));
         this.tasks.addTask(2, new EntityAILookIdle(this));
-        this.tasks.addTask(3, new EntityAIAttackMelee (this, 5F, false));
+        this.tasks.addTask(3, new EntityAIWander(this, 0.5F));
+        this.tasks.addTask(3, new EntityAIAttackMelee (this, 1F, false));
         this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, false, new Class[0]));
         this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityPlayer.class, true));
     }

@@ -56,7 +56,7 @@ public class RegistryHandler {
     @SubscribeEvent
     public static void addEntities(RegistryEvent.Register<EntityEntry> e) {
         IForgeRegistry<EntityEntry> reg = e.getRegistry();
-        reg.registerAll(EntityEntries.PENGUIN, EntityEntries.SEAL, EntityEntries.WEAK_ICEBALL, EntityEntries.STRONG_ICEBALL, EntityEntries.WALRUS, EntityEntries.ARCTIC_FOX, EntityEntries.SNAKE);
+        reg.registerAll(EntityEntries.PENGUIN, EntityEntries.SEAL, EntityEntries.WEAK_ICEBALL, EntityEntries.STRONG_ICEBALL, EntityEntries.WALRUS, EntityEntries.ARCTIC_FOX, EntityEntries.SNAKE, EntityEntries.SQUIRREL);
         setUpSpawns();
     }
 
@@ -70,5 +70,6 @@ public class RegistryHandler {
         public static final EntityEntry WALRUS = EntityEntryBuilder.create().entity(EntityWalrus.class).id(new ResourceLocation(WorldPlus.MODID, "walrus"), 4).name("walrus").tracker(80, 3, true).egg(7029783, 5980968).build();
         public static final EntityEntry ARCTIC_FOX = EntityEntryBuilder.create().entity(EntityArcticFox.class).id(new ResourceLocation(WorldPlus.MODID, "arctic_fox"), 5).name("arctic_fox").tracker(80, 3, true).egg(16777215, 5636095).build();
         public static final EntityEntry SNAKE = EntityEntryBuilder.create().entity(EntitySnake.class).id(new ResourceLocation(WorldPlus.MODID, "snake"), 6).name("snake").tracker(80, 3, true).egg(43520, 16777045).build();
+        public static final EntityEntry SQUIRREL = EntityEntryBuilder.create().entity(EntitySquirrel.class).id(new ResourceLocation(WorldPlus.MODID, "squirrel"), 7).name("squirrel").tracker(80, 3, true).egg(43520, 16777045).build();
     }
 }
