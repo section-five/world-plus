@@ -1,5 +1,6 @@
 //Creative Tabs
-itemGroup.arctic=Arctic Voorwerpen
+itemGroup.arctic=Wereld Plus Voorwerpen
+itemGroup.food=Wereld Plus Voedsel
 
 //Blocks
 tile.red_ice.name=Rood Ijs
@@ -41,7 +42,7 @@ entity.penguin.name=Pinguïn
 entity.seal.name=Zeehond
 entity.walrus.name=Walrus
 entity.squirrel.name=Eekhoorn
-
+entity.worm.name=Worm
 
 //Config
 category.arctic.spawn=Spawn
