@@ -2,10 +2,11 @@
 
 Makes your Minecraft Worlds better.
 
+***We are currently looking for some more modelers and coders to contribute after enough contribute you may be asked to join the team***
 ## Getting Started
 
 This is info about the mod!
-If you need more help join out [Discord](https://discord.gg/R6GQ4PU)
+If you need more help join our [Discord](https://discord.gg/R6GQ4PU)
 
 ### Prerequisite
 The Latest Version of [Minecraft  Forge 1.12.2](https://www.minecraftforge.net)
@@ -28,7 +29,7 @@ For Versions we use this format: Release.Beta.Alpha/Patch As an example a releas
 
 * **[UKMinecrafted](https://GitHub.com/UKMinecrafted)** - *Mod Creator*
 * **[Josia50](https://GitHub.com/Josia50)** - *BPTeam, Senior Dev*
-* **[Temm](https://GitHub.com/bpteammc/arcticmod)** - *BPTeam, Dev*
+* **[Temm](https://GitHub.com/bpteammc/world-plus)** - *BPTeam, Dev*
 * **[Max Freemen](https://GitHub.com/MaxFreemen)** - *BPTeam, Dev*
 * **[Ben1Ben1](https://GitHub.com/Ben1Ben1)** - *BPTeam, Jr Dev*
 
