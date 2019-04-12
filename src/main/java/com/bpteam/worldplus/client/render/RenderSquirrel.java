@@ -3,6 +3,7 @@ package com.bpteam.worldplus.client.render;
 import com.bpteam.worldplus.WorldPlus;
 import com.bpteam.worldplus.client.models.ModelSquirrel;
 import com.bpteam.worldplus.common.entities.EntitySquirrel;
+import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.util.ResourceLocation;
@@ -17,6 +18,9 @@ public class RenderSquirrel extends RenderLiving<EntitySquirrel>
     public RenderSquirrel(RenderManager manager)
     {
         super(manager, new ModelSquirrel(), 0.5F);
+        GlStateManager.pushMatrix();
+        GlStateManager.scale(0.5,0.5,0.5);
+        GlStateManager.popMatrix();
     }
 
     @Override
