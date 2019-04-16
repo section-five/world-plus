@@ -19,7 +19,7 @@ public class RenderSquirrel extends RenderLiving<EntitySquirrel>
     {
         super(manager, new ModelSquirrel(), 0.5F);
         GlStateManager.pushMatrix();
-        GlStateManager.scale(0.5,0.5,0.5);
+        GlStateManager.scale(0.5,0.5,0.5); // TODO get the big entity model pls
         GlStateManager.popMatrix();
     }
 
