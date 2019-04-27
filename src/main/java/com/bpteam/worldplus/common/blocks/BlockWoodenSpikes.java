@@ -1,11 +1,14 @@
 package com.bpteam.worldplus.common.blocks;
 
 import com.bpteam.worldplus.WorldPlus;
+import com.bpteam.worldplus.init.ModBlocks;
+import com.bpteam.worldplus.init.ModItems;
 import com.bpteam.worldplus.util.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -17,6 +20,9 @@ public class BlockWoodenSpikes extends Block implements IHasModel {
         setTranslationKey(name);
         setRegistryName(name);
         setCreativeTab(WorldPlus.arctic); // TODO Change to another tab
+
+        ModBlocks.BLOCKS.add(this);
+        ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(name));
     }
 
     @Override
