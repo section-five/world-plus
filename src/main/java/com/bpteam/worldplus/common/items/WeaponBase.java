@@ -12,6 +12,7 @@ public class WeaponBase extends ItemSword implements IHasModel {
         setTranslationKey(name);
         setRegistryName(name);
         setCreativeTab(WorldPlus.arctic);
+        setMaxStackSize(1);
         ModItems.ITEMS.add(this);
     }
 

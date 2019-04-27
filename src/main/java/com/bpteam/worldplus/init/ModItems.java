@@ -13,7 +13,7 @@ public class ModItems {
     public static final Item WEAKER_ICE_BALL = new AItemWeakIceBall("weaker_ice_ball");
     public static final Item STRONGER_ICE_BALL = new AItemStrongIceBall("stronger_ice_ball");
     public static final Item HAMMER = new AItemBase("hammer");
-    public static final Item CLUB = new WeaponBase(("club", ModMaterials.CLUB);
+    public static final Item CLUB = new WeaponBase("club", ModMaterials.CLUB);
     public static final Item LUCK_COOKIE = new FoodBase("luck_cookie", 2, 4F, false);
     public static final Item CLOVER = new AItemBase("clover");
 
