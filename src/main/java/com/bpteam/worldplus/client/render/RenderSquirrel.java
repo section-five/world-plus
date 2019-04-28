@@ -14,12 +14,14 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class RenderSquirrel extends RenderLiving<EntitySquirrel>
 {
     public static final ResourceLocation TEXTURES = new ResourceLocation(WorldPlus.MODID + ":textures/entity/squirrel.png");
+    public static final ModelSquirrel squirrel = new ModelSquirrel();
 
     public RenderSquirrel(RenderManager manager)
     {
-        super(manager, new ModelSquirrel(), 0.5F);
+        super(manager, new ModelSquirrel(), 0.5f);
         GlStateManager.pushMatrix();
-        GlStateManager.scale(0.5,0.5,0.5); // TODO get the big entity model pls
+        GlStateManager.scale(0.2,0.2,0.2);
+        squirrel.render(null, 0,0f,0f,0f,0f,0.015f); // TODO Fix big model , Why is a super needed? Maybe a new render method xD
         GlStateManager.popMatrix();
     }
 
