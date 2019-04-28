@@ -74,3 +74,6 @@ config.worldplus.spawn.spawntype=Spawn Type
 config.worldplus.spawn.allowed_spawn_biomes_arctic=Allowed Spawn Biomes Arctic
 config.worldplus.spawn.allowed_spawn_biomes_hostile=Allowed Spawn Biomes Hostile
 config.worldplus.world.gen_snowy_plains=Generate Biome Snowy_Plains
+
+// Damage source
+death.attack.spikes=%1$s was spiked to death!
