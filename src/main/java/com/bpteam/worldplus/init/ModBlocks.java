@@ -37,6 +37,6 @@ public class ModBlocks {
     public static final Block CRACKED_SNOWY_BRICKS = new ABlockBase("cracked_snowy_bricks", Material.ROCK);
     public static final Block CHISELED_SNOWY_BRICKS = new ABlockBase("chiseled_snowy_bricks", Material.ROCK);
     public static final Block MOSSY_SNOWY_BRICKS = new ABlockBase("mossy_snowy_bricks", Material.ROCK);
-    public static final Block SPIKES = new BlockWoodenSpikes("spikes", Material.WOOD);
+    public static final Block SPIKES = new ABlockSpikes("spikes", Material.WOOD);
 
 }

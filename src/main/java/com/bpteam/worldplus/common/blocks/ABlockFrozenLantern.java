@@ -4,12 +4,14 @@ import com.bpteam.worldplus.WorldPlus;
 import com.bpteam.worldplus.init.ModBlocks;
 import com.bpteam.worldplus.init.ModItems;
 import com.bpteam.worldplus.util.IHasModel;
+import jdk.nashorn.internal.ir.annotations.Ignore;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
 public class ABlockFrozenLantern extends Block implements IHasModel {
+
     public ABlockFrozenLantern(String name, Material material) {
         super(material);
         setTranslationKey(name);

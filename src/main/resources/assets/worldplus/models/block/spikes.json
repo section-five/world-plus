@@ -1,8 +1,8 @@
 {
 	"credit": "UKMinecrafted 2019",
 	"textures": {
-		"0": "MiTrek:blocks/spikes",
-		"particle": "MiTrek:blocks/spikes"
+		"0": "worldplus:blocks/spikes",
+		"particle": "worldplus:blocks/spikes"
 	},
 	"elements": [
 		{
