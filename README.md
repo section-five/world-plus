@@ -2,7 +2,7 @@
 
 Makes your Minecraft Worlds better.
 
-***We are currently looking for some more modelersand coders to join the team***
+***We are currently looking for some more modelers and coders to join the team***
 ## Getting Started
 
 This is info about the mod!
